@@ -7,13 +7,16 @@
     "min_area": 0.003,
     "reason": "Simple light-egg baseline",
     "dev": {
-      "iou": 0.3585284597792315,
-      "dice": 0.460301141744473,
-      "precision": 0.47250554699122954,
-      "recall": 0.5223348400331647,
-      "object_precision": 0.3287472943722944,
-      "object_recall": 0.4900568181818182,
-      "count_error": 1.7727272727272727
+      "iou": 0.35611178080927125,
+      "dice": 0.45620542122300134,
+      "precision": 0.46929821881949363,
+      "recall": 0.5186395089923956,
+      "pixel_accuracy": 0.8652985728870739,
+      "balanced_accuracy": 0.7264571232883051,
+      "specificity": 0.9154114063963597,
+      "object_precision": 0.3306412337662338,
+      "object_recall": 0.49573863636363635,
+      "count_error": 1.75
     },
     "decision": "discarded: lower dev mean IoU"
   },
@@ -25,13 +28,16 @@
     "min_area": 0.003,
     "reason": "Adaptive global threshold for varying exposure",
     "dev": {
-      "iou": 0.2599737995086631,
-      "dice": 0.3343652386914629,
-      "precision": 0.29515889163785797,
-      "recall": 0.4890071244690734,
-      "object_precision": 0.22008928571428568,
-      "object_recall": 0.3442234848484848,
-      "count_error": 1.8522727272727273
+      "iou": 0.26070259153485426,
+      "dice": 0.33524144193168337,
+      "precision": 0.29599539146718623,
+      "recall": 0.48873948691159225,
+      "pixel_accuracy": 0.8208067460493609,
+      "balanced_accuracy": 0.684907348446231,
+      "specificity": 0.8656953771062251,
+      "object_precision": 0.2238771645021645,
+      "object_recall": 0.35558712121212116,
+      "count_error": 1.7954545454545454
     },
     "decision": "discarded: lower dev mean IoU"
   },
@@ -43,12 +49,15 @@
     "min_area": 0.003,
     "reason": "Reject colored background and non-elliptical regions",
     "dev": {
-      "iou": 0.2634611453769984,
-      "dice": 0.31141458310617937,
-      "precision": 0.34353709827036877,
-      "recall": 0.3003449077458822,
-      "object_precision": 0.2778409090909091,
-      "object_recall": 0.3271780303030303,
+      "iou": 0.2708766584603857,
+      "dice": 0.3203891316465295,
+      "precision": 0.35336282534601837,
+      "recall": 0.3086039921470985,
+      "pixel_accuracy": 0.8992606700550425,
+      "balanced_accuracy": 0.6551711090989216,
+      "specificity": 0.9795525571054321,
+      "object_precision": 0.28541666666666665,
+      "object_recall": 0.33854166666666663,
       "count_error": 0.7840909090909091
     },
     "decision": "discarded: lower dev mean IoU"
@@ -61,13 +70,16 @@
     "min_area": 0.003,
     "reason": "Reduce bright clutter false positives",
     "dev": {
-      "iou": 0.31952763875616164,
-      "dice": 0.3800841739666918,
-      "precision": 0.45398770475012584,
-      "recall": 0.34163442049905296,
-      "object_precision": 0.3844696969696969,
-      "object_recall": 0.40104166666666663,
-      "count_error": 0.6136363636363636
+      "iou": 0.32632712714655915,
+      "dice": 0.3885922819683266,
+      "precision": 0.4641805833334882,
+      "recall": 0.34893570635363835,
+      "pixel_accuracy": 0.9109529252485796,
+      "balanced_accuracy": 0.6778752190684887,
+      "specificity": 0.9848594428096173,
+      "object_precision": 0.38825757575757575,
+      "object_recall": 0.4067234848484848,
+      "count_error": 0.625
     },
     "decision": "discarded: lower dev mean IoU"
   },
@@ -79,13 +91,16 @@
     "min_area": 0.001,
     "reason": "Recover distant eggs",
     "dev": {
-      "iou": 0.26278355341384463,
-      "dice": 0.31180468633454006,
-      "precision": 0.3425634178744027,
-      "recall": 0.30155825249893087,
-      "object_precision": 0.24734848484848485,
-      "object_recall": 0.3271780303030303,
-      "count_error": 1.375
+      "iou": 0.27019906649723197,
+      "dice": 0.3207792348748902,
+      "precision": 0.35238914495005236,
+      "recall": 0.3098173369001472,
+      "pixel_accuracy": 0.8980772816051136,
+      "balanced_accuracy": 0.6550788346941157,
+      "specificity": 0.9781546635427716,
+      "object_precision": 0.2549242424242424,
+      "object_recall": 0.33854166666666663,
+      "count_error": 1.3181818181818181
     },
     "decision": "discarded: lower dev mean IoU"
   },
@@ -97,12 +112,15 @@
     "min_area": 0.003,
     "reason": "Test stronger foreground contrast",
     "dev": {
-      "iou": 0.3613865005398536,
-      "dice": 0.45382097750625955,
-      "precision": 0.5995222379484335,
-      "recall": 0.37931903749407475,
-      "object_precision": 0.39583333333333326,
-      "object_recall": 0.4275568181818182,
+      "iou": 0.3697095079660867,
+      "dice": 0.46332185394861836,
+      "precision": 0.6101452415514056,
+      "recall": 0.38785995024114794,
+      "pixel_accuracy": 0.9117368386008523,
+      "balanced_accuracy": 0.6961219015220962,
+      "specificity": 0.9822279523680302,
+      "object_precision": 0.41098484848484845,
+      "object_recall": 0.4446022727272727,
       "count_error": 0.5681818181818182
     },
     "decision": "discarded: lower dev mean IoU"
@@ -115,13 +133,16 @@
     "min_area": 0.003,
     "reason": "Grow bright egg cores to full boundaries using local color models",
     "dev": {
-      "iou": 0.3562609067941245,
-      "dice": 0.41307164577835354,
-      "precision": 0.4127732576492207,
-      "recall": 0.44523830000265296,
-      "object_precision": 0.3587121212121212,
-      "object_recall": 0.4502840909090909,
-      "count_error": 0.8295454545454546
+      "iou": 0.3620542905088598,
+      "dice": 0.418468825343262,
+      "precision": 0.41963906691775427,
+      "recall": 0.44709426003788144,
+      "pixel_accuracy": 0.899207763671875,
+      "balanced_accuracy": 0.7147256519304167,
+      "specificity": 0.9606551062341734,
+      "object_precision": 0.3657196969696969,
+      "object_recall": 0.4616477272727273,
+      "count_error": 0.8409090909090909
     },
     "decision": "discarded: lower dev mean IoU"
   },
@@ -133,13 +154,37 @@
     "min_area": 0.003,
     "reason": "Stricter seeds before local graph cut",
     "dev": {
-      "iou": 0.46125034805542436,
-      "dice": 0.5274779165115119,
-      "precision": 0.568152699519713,
-      "recall": 0.511701091285691,
-      "object_precision": 0.4431818181818182,
-      "object_recall": 0.5260416666666666,
-      "count_error": 0.7386363636363636
+      "iou": 0.4770006730613001,
+      "dice": 0.543227569394979,
+      "precision": 0.5839364451541024,
+      "recall": 0.5263894144716521,
+      "pixel_accuracy": 0.9238856367631392,
+      "balanced_accuracy": 0.761642086412905,
+      "specificity": 0.9750550755150242,
+      "object_precision": 0.45454545454545453,
+      "object_recall": 0.5449810606060606,
+      "count_error": 0.7272727272727273
+    },
+    "decision": "discarded: lower dev mean IoU"
+  },
+  {
+    "name": "T9 graph cut with empty-mask fallback",
+    "method": "grabcut_fallback",
+    "light": 180,
+    "sat": 110,
+    "min_area": 0.003,
+    "reason": "Use a conservative global mask only when graph cut finds no egg",
+    "dev": {
+      "iou": 0.4941134859714646,
+      "dice": 0.5674917823303023,
+      "precision": 0.603044623121406,
+      "recall": 0.5675750921816878,
+      "pixel_accuracy": 0.9154891690340908,
+      "balanced_accuracy": 0.7743463590589886,
+      "specificity": 0.9592779430971562,
+      "object_precision": 0.4659090909090909,
+      "object_recall": 0.5563446969696969,
+      "count_error": 0.7840909090909091
     },
     "decision": "kept: highest dev mean IoU"
   }

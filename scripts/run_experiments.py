@@ -25,6 +25,7 @@ TRIALS = [
     {"name": "T6 high brightness", "method": "refined", "light": 180, "sat": 100, "min_area": 0.003, "reason": "Test stronger foreground contrast"},
     {"name": "T7 graph cut 160", "method": "grabcut", "light": 160, "sat": 110, "min_area": 0.003, "reason": "Grow bright egg cores to full boundaries using local color models"},
     {"name": "T8 graph cut 180", "method": "grabcut", "light": 180, "sat": 110, "min_area": 0.003, "reason": "Stricter seeds before local graph cut"},
+    {"name": "T9 graph cut with empty-mask fallback", "method": "grabcut_fallback", "light": 180, "sat": 110, "min_area": 0.003, "reason": "Use a conservative global mask only when graph cut finds no egg"},
 ]
 
 
@@ -63,7 +64,7 @@ def assess(paths: list[Path], trial: dict, save: bool = False) -> list[dict]:
 
 
 def summary(rows: list[dict]) -> dict[str, float]:
-    return {k: float(np.mean([r[k] for r in rows])) for k in ["iou", "dice", "precision", "recall", "object_precision", "object_recall", "count_error"]}
+    return {k: float(np.mean([r[k] for r in rows])) for k in ["iou", "dice", "precision", "recall", "pixel_accuracy", "balanced_accuracy", "specificity", "object_precision", "object_recall", "count_error"]}
 
 
 def bootstrap_ci(rows: list[dict], metric: str, seed: int = 31) -> list[float]:
@@ -116,6 +117,10 @@ def main() -> None:
     save_json(OUT / "selected_algorithm.json", {k: winner[k] for k in ["name", "method", "light", "sat", "min_area"]})
     (OUT / "predictions").mkdir(parents=True, exist_ok=True)
     (OUT / "explorer").mkdir(parents=True, exist_ok=True)
+    for old in (OUT / "predictions").glob("*.png"):
+        old.unlink()
+    for old in (OUT / "explorer").glob("*.jpg"):
+        old.unlink()
     eval_rows = assess(evaluation, winner, save=True)
     write_csv(OUT / "eval_per_image.csv", eval_rows)
     scores = summary(eval_rows)
@@ -124,6 +129,8 @@ def main() -> None:
     scores["eval_count"] = len(eval_rows)
     scores["dev_count"] = len(dev)
     save_json(OUT / "eval_summary.json", scores)
+    baseline = next(trial for trial in TRIALS if trial["name"] == "T8 graph cut 180")
+    save_json(OUT / "eval_baseline_summary.json", summary(assess(evaluation, baseline)))
     explorer(eval_rows)
     print("Winner", winner["name"], "Eval", scores)
 

@@ -1,0 +1,12 @@
+{
+  "dev_count": 88,
+  "eval_count": 22,
+  "ratio": "88:22 = 4:1",
+  "scene_groups": 99,
+  "cross_exact_duplicate_files": 0,
+  "cross_split_min_phash_distance": 16,
+  "cross_split_pairs_meeting_group_rules": 0,
+  "reviewed_example_151_152_grouped": true,
+  "reviewed_example_113_135_grouped": true,
+  "limitation": "Visual similarity rules cannot guarantee independent capture sessions; manual scene IDs and new human masks would be stronger."
+}

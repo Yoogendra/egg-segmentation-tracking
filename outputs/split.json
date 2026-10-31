@@ -1,15 +1,17 @@
 {
   "seed": 31,
-  "criterion": "64-bit DCT pHash Hamming <= 6 OR >=20 ORB+RANSAC inliers; transitive groups",
-  "group_count": 103,
+  "criterion": "same source basename OR pHash Hamming <= 6 OR source IDs <= 2 apart with pHash <= 20 OR pHash <= 20 plus HSV histogram correlation >= 0.92 OR >=20 ORB+RANSAC inliers; transitive groups",
+  "group_count": 99,
   "dev": [
     "egg.v1i.folder/test/egg/not_damaged_101_jpg.rf.479d12a2b41a5ec6d718dcdabd14b0c9.jpg",
     "egg.v1i.folder/test/egg/not_damaged_125_jpg.rf.b19353b1f84dcbef1ec088b850927bb3.jpg",
     "egg.v1i.folder/test/egg/not_damaged_14_jpg.rf.dc96559078b03433d2b65e5055904af1.jpg",
+    "egg.v1i.folder/test/egg/not_damaged_152_jpg.rf.a57edb18d395ce87e23f7abccbd1ad69.jpg",
     "egg.v1i.folder/test/egg/not_damaged_1_jpg.rf.d74c98a14f068b48c1f58fd573361f1f.jpg",
     "egg.v1i.folder/test/egg/not_damaged_43_jpg.rf.66c31342150e751c30214786e72c8683.jpg",
     "egg.v1i.folder/test/egg/not_damaged_4_jpg.rf.36c78b63ea4710d9642651ac3292fd58.jpg",
     "egg.v1i.folder/test/egg/not_damaged_78_jpg.rf.d3a6e8624d192abc58ff7df9d5781bb5.jpg",
+    "egg.v1i.folder/train/Unlabeled/not_damaged_135_jpg.rf.a6d81ffb82470e031fb3ab469c8f0db2.jpg",
     "egg.v1i.folder/train/Unlabeled/not_damaged_145_jpg.rf.5147bfde42f30a27504377fd5ef13b05.jpg",
     "egg.v1i.folder/train/egg/not_damaged_100_jpg.rf.5d780a6024004fa2f68741fa56ddf4c9.jpg",
     "egg.v1i.folder/train/egg/not_damaged_103_jpg.rf.c0bd961caec5acf3a6582c9cb2551634.jpg",
@@ -29,11 +31,11 @@
     "egg.v1i.folder/train/egg/not_damaged_124_jpg.rf.931f62b8d40a093039633b898e0e9114.jpg",
     "egg.v1i.folder/train/egg/not_damaged_127_jpg.rf.3a541bab7c9e2c2e43c2fdbf391617b5.jpg",
     "egg.v1i.folder/train/egg/not_damaged_128_jpg.rf.95a7ef96dcc9e14fa7137708df6f2e60.jpg",
+    "egg.v1i.folder/train/egg/not_damaged_129_jpg.rf.3cee5e92daed138fcdc13d9aa62c2785.jpg",
     "egg.v1i.folder/train/egg/not_damaged_12_jpg.rf.339e366cebec5c32e751e8500aa12f3e.jpg",
     "egg.v1i.folder/train/egg/not_damaged_131_jpg.rf.4ac62f5b18b131bac463f705d0969147.jpg",
     "egg.v1i.folder/train/egg/not_damaged_134_jpg.rf.fb4e9c442527db9e71d4a95584773fa2.jpg",
     "egg.v1i.folder/train/egg/not_damaged_138_jpg.rf.4db6e0e16ddec73ff527d4efbb119f7a.jpg",
-    "egg.v1i.folder/train/egg/not_damaged_139_jpg.rf.9f18c65b30035092401a5281a03b7124.jpg",
     "egg.v1i.folder/train/egg/not_damaged_13_jpg.rf.60964651b01aed5680a994ecbd7012ea.jpg",
     "egg.v1i.folder/train/egg/not_damaged_141_jpg.rf.67be7a06282cf025b53162b5a9df15ff.jpg",
     "egg.v1i.folder/train/egg/not_damaged_142_jpg.rf.5b29be6bd5a6cfc192f51a5b580c1a07.jpg",
@@ -62,10 +64,8 @@
     "egg.v1i.folder/train/egg/not_damaged_33_jpg.rf.0d5860269868461da778265b77ee13b2.jpg",
     "egg.v1i.folder/train/egg/not_damaged_34_jpg.rf.4be2a53f051e4372100c90f2d36ea129.jpg",
     "egg.v1i.folder/train/egg/not_damaged_35_jpg.rf.fe6e06dca50c525194a8edc282489e2a.jpg",
-    "egg.v1i.folder/train/egg/not_damaged_36_jpg.rf.4968de1c56728d9f7325771e3a7f7e3e.jpg",
     "egg.v1i.folder/train/egg/not_damaged_39_jpg.rf.81c4c633444db832268298ddae1010d6.jpg",
     "egg.v1i.folder/train/egg/not_damaged_3_jpg.rf.d68fc8de8607c2495eb8c832c1e24078.jpg",
-    "egg.v1i.folder/train/egg/not_damaged_41_jpg.rf.630408063dc3fdfa9a9a7f49e1c1d93c.jpg",
     "egg.v1i.folder/train/egg/not_damaged_42_jpg.rf.6626de5325fbf9ad4fec739b2a4e29f3.jpg",
     "egg.v1i.folder/train/egg/not_damaged_44_jpg.rf.a4dbaabec5b64e4c34d874a6870964be.jpg",
     "egg.v1i.folder/train/egg/not_damaged_50_jpg.rf.b9e65c2fcdb435269f67c9d7ade8ca89.jpg",
@@ -93,22 +93,22 @@
     "egg.v1i.folder/valid/egg/not_damaged_45_jpg.rf.afe41bdac424f6a6b81d8a809fdf73e0.jpg"
   ],
   "eval": [
-    "egg.v1i.folder/test/egg/not_damaged_152_jpg.rf.a57edb18d395ce87e23f7abccbd1ad69.jpg",
     "egg.v1i.folder/test/egg/not_damaged_153_jpg.rf.ea842e70f08e63e69bbcc74f1bc143a8.jpg",
     "egg.v1i.folder/test/egg/not_damaged_161_jpg.rf.fd216aa5e11e147fc1527478cceae94e.jpg",
     "egg.v1i.folder/test/egg/not_damaged_30_jpg.rf.48e9261777355fe67139ac1c5eae596b.jpg",
-    "egg.v1i.folder/train/Unlabeled/not_damaged_135_jpg.rf.a6d81ffb82470e031fb3ab469c8f0db2.jpg",
     "egg.v1i.folder/train/egg/not_damaged_116_jpg.rf.43fecd96347e2129115fceed65986cc9.jpg",
     "egg.v1i.folder/train/egg/not_damaged_117_jpg.rf.d25ded9e7408f9b89b3cfb3de581f6a6.jpg",
-    "egg.v1i.folder/train/egg/not_damaged_129_jpg.rf.3cee5e92daed138fcdc13d9aa62c2785.jpg",
     "egg.v1i.folder/train/egg/not_damaged_132_jpg.rf.5deff743ad11d33750171617e116bd7a.jpg",
+    "egg.v1i.folder/train/egg/not_damaged_139_jpg.rf.9f18c65b30035092401a5281a03b7124.jpg",
     "egg.v1i.folder/train/egg/not_damaged_154_jpg.rf.1ad087e824bbaae4f2c8218624f83c1a.jpg",
     "egg.v1i.folder/train/egg/not_damaged_17_jpg.rf.7298154b15cab2942d3351120a4337d5.jpg",
     "egg.v1i.folder/train/egg/not_damaged_18_jpg.rf.bc3fb0b05f8e3f72d25ae44db40362c0.jpg",
     "egg.v1i.folder/train/egg/not_damaged_19_jpg.rf.b68555e4ce0c87f7f6a9f9d441a47a08.jpg",
     "egg.v1i.folder/train/egg/not_damaged_21_jpg.rf.a584f5d526fa26469cc144a40a3134da.jpg",
     "egg.v1i.folder/train/egg/not_damaged_24_jpg.rf.a557aeb67c480dc55479509a77b4e160.jpg",
+    "egg.v1i.folder/train/egg/not_damaged_36_jpg.rf.4968de1c56728d9f7325771e3a7f7e3e.jpg",
     "egg.v1i.folder/train/egg/not_damaged_37_jpg.rf.73b8cff8dacc52197fd7fdd958397507.jpg",
+    "egg.v1i.folder/train/egg/not_damaged_41_jpg.rf.630408063dc3fdfa9a9a7f49e1c1d93c.jpg",
     "egg.v1i.folder/train/egg/not_damaged_49_jpg.rf.78a86245d3715c60d39d47045a323711.jpg",
     "egg.v1i.folder/valid/egg/not_damaged_126_jpg.rf.2c3342cf9ca7ab55f6682ef198e98bbd.jpg",
     "egg.v1i.folder/valid/egg/not_damaged_133_jpg.rf.a386f448c321cfb45a902bab446a0536.jpg",
@@ -152,15 +152,6 @@
     ],
     [
       "egg.v1i.folder/train/egg/not_damaged_18_jpg.rf.bc3fb0b05f8e3f72d25ae44db40362c0.jpg"
-    ],
-    [
-      "egg.v1i.folder/train/egg/not_damaged_129_jpg.rf.3cee5e92daed138fcdc13d9aa62c2785.jpg"
-    ],
-    [
-      "egg.v1i.folder/train/Unlabeled/not_damaged_135_jpg.rf.a6d81ffb82470e031fb3ab469c8f0db2.jpg"
-    ],
-    [
-      "egg.v1i.folder/test/egg/not_damaged_152_jpg.rf.a57edb18d395ce87e23f7abccbd1ad69.jpg"
     ],
     [
       "egg.v1i.folder/valid/egg/not_damaged_133_jpg.rf.a386f448c321cfb45a902bab446a0536.jpg"
@@ -228,7 +219,8 @@
       "egg.v1i.folder/train/egg/not_damaged_105_jpg.rf.6b94b57d4e4cb521abbec55bb95c2a76.jpg"
     ],
     [
-      "egg.v1i.folder/train/egg/not_damaged_128_jpg.rf.95a7ef96dcc9e14fa7137708df6f2e60.jpg"
+      "egg.v1i.folder/train/egg/not_damaged_128_jpg.rf.95a7ef96dcc9e14fa7137708df6f2e60.jpg",
+      "egg.v1i.folder/train/egg/not_damaged_129_jpg.rf.3cee5e92daed138fcdc13d9aa62c2785.jpg"
     ],
     [
       "egg.v1i.folder/train/egg/not_damaged_110_jpg.rf.2de10ae949146248df94e52f9065bdd8.jpg"
@@ -249,7 +241,9 @@
       "egg.v1i.folder/valid/egg/not_damaged_149_jpg.rf.c3c35299246e8c667ee33f02855a6e99.jpg"
     ],
     [
-      "egg.v1i.folder/train/egg/not_damaged_113_jpg.rf.75e3389c0809c7c0f42fbfd25219e65e.jpg"
+      "egg.v1i.folder/train/Unlabeled/not_damaged_135_jpg.rf.a6d81ffb82470e031fb3ab469c8f0db2.jpg",
+      "egg.v1i.folder/train/egg/not_damaged_113_jpg.rf.75e3389c0809c7c0f42fbfd25219e65e.jpg",
+      "egg.v1i.folder/train/egg/not_damaged_124_jpg.rf.931f62b8d40a093039633b898e0e9114.jpg"
     ],
     [
       "egg.v1i.folder/train/egg/not_damaged_10_jpg.rf.2347ffa54eea250ab240def10a3eb78f.jpg"
@@ -258,6 +252,7 @@
       "egg.v1i.folder/train/egg/not_damaged_3_jpg.rf.d68fc8de8607c2495eb8c832c1e24078.jpg"
     ],
     [
+      "egg.v1i.folder/test/egg/not_damaged_152_jpg.rf.a57edb18d395ce87e23f7abccbd1ad69.jpg",
       "egg.v1i.folder/train/egg/not_damaged_151_jpg.rf.34a8c4ae80d0863cd228120235134ae2.jpg"
     ],
     [
@@ -391,9 +386,6 @@
     ],
     [
       "egg.v1i.folder/valid/egg/not_damaged_40_jpg.rf.71ddd6e202abb9dd3dd4721b6d408cba.jpg"
-    ],
-    [
-      "egg.v1i.folder/train/egg/not_damaged_124_jpg.rf.931f62b8d40a093039633b898e0e9114.jpg"
     ],
     [
       "egg.v1i.folder/valid/egg/not_damaged_158_jpg.rf.344b69defda5c12d2f73f77ab479c93c.jpg"

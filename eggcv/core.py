@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 from pathlib import Path
 
 import cv2
@@ -40,9 +41,16 @@ def phash(image: np.ndarray) -> np.ndarray:
 
 def make_split(paths: list[Path], seed: int = 31) -> dict[str, object]:
     """Keep near duplicates and geometrically matching scenes together."""
-    hashes = [phash(read(p)) for p in paths]
+    source_images = [read(p) for p in paths]
+    hashes = [phash(image) for image in source_images]
+    histograms = []
+    for image in source_images:
+        hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
+        hist = cv2.calcHist([hsv], [0, 1], None, [16, 8], [0, 180, 0, 256])
+        histograms.append(cv2.normalize(hist, hist, 0, 1, cv2.NORM_MINMAX))
+    source_ids = [int(match.group(1)) if (match := re.search(r"not_damaged_(\d+)", p.stem)) else None for p in paths]
     orb = cv2.ORB_create(nfeatures=500)
-    features = [orb.detectAndCompute(cv2.cvtColor(cv2.resize(read(p),(320,320)),cv2.COLOR_BGR2GRAY),None) for p in paths]
+    features = [orb.detectAndCompute(cv2.cvtColor(cv2.resize(image,(320,320)),cv2.COLOR_BGR2GRAY),None) for image in source_images]
     matcher = cv2.BFMatcher(cv2.NORM_HAMMING)
     parents = list(range(len(paths)))
 
@@ -54,7 +62,11 @@ def make_split(paths: list[Path], seed: int = 31) -> dict[str, object]:
 
     for i in range(len(paths)):
         for j in range(i):
-            same = np.count_nonzero(hashes[i] != hashes[j]) <= 6
+            distance = np.count_nonzero(hashes[i] != hashes[j])
+            nearby_capture = (source_ids[i] is not None and source_ids[j] is not None
+                              and abs(source_ids[i] - source_ids[j]) <= 2 and distance <= 20)
+            same_color_profile = distance <= 20 and cv2.compareHist(histograms[i], histograms[j], cv2.HISTCMP_CORREL) >= .92
+            same = key(paths[i]) == key(paths[j]) or distance <= 6 or nearby_capture or same_color_profile
             if not same:
                 kp_a, desc_a = features[i]
                 kp_b, desc_b = features[j]
@@ -81,7 +93,7 @@ def make_split(paths: list[Path], seed: int = 31) -> dict[str, object]:
     eval_set = set(evaluation)
     return {
         "seed": seed,
-        "criterion": "64-bit DCT pHash Hamming <= 6 OR >=20 ORB+RANSAC inliers; transitive groups",
+        "criterion": "same source basename OR pHash Hamming <= 6 OR source IDs <= 2 apart with pHash <= 20 OR pHash <= 20 plus HSV histogram correlation >= 0.92 OR >=20 ORB+RANSAC inliers; transitive groups",
         "group_count": len(groups),
         "dev": [str(paths[i].relative_to(ROOT)) for i in range(len(paths)) if i not in eval_set],
         "eval": [str(paths[i].relative_to(ROOT)) for i in range(len(paths)) if i in eval_set],
@@ -127,13 +139,13 @@ def classical(image: np.ndarray, method: str, light: int = 160, sat: int = 90, m
         binary = (gray >= light).astype(np.uint8)
     elif method == "otsu":
         _, binary = cv2.threshold(gray, 0, 1, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
-    elif method in ("refined", "grabcut"):
+    elif method in ("refined", "grabcut", "grabcut_fallback"):
         local = cv2.GaussianBlur(gray, (0, 0), 23)
         binary = ((gray >= light) & (hsv[:, :, 1] <= sat) & (gray >= local - 8)).astype(np.uint8)
     else:
         raise ValueError(method)
-    binary = clean(binary, 7 if method in ("refined", "grabcut") else 5)
-    if method == "grabcut":
+    binary = clean(binary, 7 if method in ("refined", "grabcut", "grabcut_fallback") else 5)
+    if method in ("grabcut", "grabcut_fallback"):
         result = np.zeros((h,w),np.uint8)
         seeds = sorted(components(binary, max(300, int(min_area*h*w))), key=lambda a: int(a.sum()), reverse=True)[:8]
         for seed in seeds:
@@ -157,6 +169,7 @@ def classical(image: np.ndarray, method: str, light: int = 160, sat: int = 90, m
             if not np.any(labels==cv2.GC_FGD) or not np.any(labels==cv2.GC_BGD):
                 continue
             try:
+                cv2.setRNGSeed(31)
                 cv2.grabCut(region,labels,None,np.zeros((1,65),np.float64),np.zeros((1,65),np.float64),2,cv2.GC_INIT_WITH_MASK)
             except cv2.error:
                 continue
@@ -164,6 +177,8 @@ def classical(image: np.ndarray, method: str, light: int = 160, sat: int = 90, m
             proposal = clean(proposal,5)
             if shape_features(proposal)["area"] < .45*h*w:
                 result[y0:y1,x0:x1] |= proposal
+        if method == "grabcut_fallback" and not np.any(result):
+            return classical(image, "global", 165, 255, min_area)
         return result
     selected = np.zeros((h, w), np.uint8)
     for part in components(binary, max(100, int(min_area * h * w))):
@@ -181,11 +196,23 @@ def metrics(truth: np.ndarray, pred: np.ndarray) -> dict[str, float]:
     tp = np.count_nonzero(t & p)
     fp = np.count_nonzero(~t & p)
     fn = np.count_nonzero(t & ~p)
+    tn = np.count_nonzero(~t & ~p)
+    sensitivity = tp / (tp + fn) if tp + fn else None
+    specificity = tn / (tn + fp) if tn + fp else None
+    if sensitivity is None:
+        balanced_accuracy = specificity if specificity is not None else 1.0
+    elif specificity is None:
+        balanced_accuracy = sensitivity
+    else:
+        balanced_accuracy = (sensitivity + specificity) / 2
     return {
         "iou": float(tp / (tp + fp + fn)) if tp + fp + fn else 1.0,
         "dice": float(2 * tp / (2 * tp + fp + fn)) if 2 * tp + fp + fn else 1.0,
         "precision": float(tp / (tp + fp)) if tp + fp else 0.0,
         "recall": float(tp / (tp + fn)) if tp + fn else 0.0,
+        "pixel_accuracy": float((tp + tn) / t.size),
+        "balanced_accuracy": float(balanced_accuracy),
+        "specificity": float(specificity) if specificity is not None else 0.0,
     }
 
 

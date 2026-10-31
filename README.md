@@ -4,18 +4,20 @@ Reproducible solution to the CV Intern Task. It compares a classical egg segment
 
 ## Results
 
-The supplied dataset is **Roboflow egg v1**, 110 images. It contains 108 images in the `egg` folder and 2 `Unlabeled` images. The linked v2/v3 pages list 160 images, but the supplied alternative ZIP is v1. The dataset has classification folders, **not hand-drawn segmentation masks**. Thus the reported scores measure agreement with reviewed MobileSAM pseudo-labels.
+The supplied dataset is **Roboflow egg v1**, 110 images. It contains 108 images in the `egg` folder and 2 `Unlabeled` images. The linked v2/v3 pages list 160 images, but the supplied alternative ZIP is v1. The dataset has classification folders, **not hand-drawn segmentation masks**. Thus the reported scores measure agreement with reviewed MobileSAM pseudo-labels. The split is exactly **88 development / 22 evaluation = 4:1**.
 
 | Evaluation metric | Mean on 22 images |
 |---|---:|
-| IoU | 0.565 |
-| Dice | 0.648 |
-| Pixel precision | 0.712 |
-| Pixel recall | 0.677 |
-| Object precision at IoU 0.5 | 0.644 |
-| Object recall at IoU 0.5 | 0.600 |
+| IoU | 0.532 |
+| Dice | 0.627 |
+| Pixel precision | 0.684 |
+| Pixel recall | 0.682 |
+| Pixel accuracy | 0.910 |
+| Balanced pixel accuracy | 0.813 |
+| Object precision at IoU 0.5 | 0.598 |
+| Object recall at IoU 0.5 | 0.554 |
 
-The selected graph-cut method improved development mean IoU from 0.361 for the strongest threshold baseline to 0.461. The image-bootstrap 95% interval for evaluation IoU is 0.416–0.705. See [`outputs/Egg_Segmentation_Tracking_Report.pdf`](outputs/Egg_Segmentation_Tracking_Report.pdf) for analysis and [`outputs/explorer/index.html`](outputs/explorer/index.html) for an interactive worst-case gallery.
+The selected graph-cut method with an empty-mask fallback improved development mean IoU from 0.370 for the strongest threshold baseline to 0.494. On the **same grouped evaluation split**, it improved IoU from 0.509 for graph cut alone to **0.532**. The image-bootstrap 95% interval for evaluation IoU is 0.394–0.663. Pixel accuracy must be read alongside overlap and balanced accuracy: an all-background mask would already score 0.872. The earlier, less strict split produced a higher score; the current grouped split is the reported result. OpenCV's graph-cut RNG is fixed for repeatable measurements. See [`outputs/Egg_Segmentation_Tracking_Report.pdf`](outputs/Egg_Segmentation_Tracking_Report.pdf) for analysis and [`outputs/explorer/index.html`](outputs/explorer/index.html) for an interactive worst-case gallery.
 
 ## Setup
 
@@ -48,17 +50,18 @@ The [annotated tracking video is publicly viewable on Google Drive](https://driv
 YOLO_CONFIG_DIR="$PWD/.cache" .venv/bin/python scripts/generate_reference.py
 YOLO_CONFIG_DIR="$PWD/.cache" .venv/bin/python scripts/repair_reference.py
 .venv/bin/python scripts/run_experiments.py
+.venv/bin/python scripts/audit_split.py
 .venv/bin/python scripts/track_video.py
 MPLCONFIGDIR="$PWD/.cache/matplotlib" .venv/bin/python scripts/make_report.py
 ```
 
-The first command generates automatic MobileSAM proposals and saves masks for all 110 images. The second applies recorded human-selected positive point and box prompts to visible missed eggs; it records every prompt in `outputs/reference_repairs.json` and creates a QC contact sheet. Two boiling-water frames have no visible egg mask. The experiment command uses a deterministic 88/22 split that keeps strong perceptual matches and ORB-verified scene matches together; it saves all trial decisions and per-image held-out metrics. The tracker writes a full 60-second MP4 and `outputs/tracks.csv`. To rebuild the report with the verified public video link, rerun the final command with `--video-url 'https://drive.google.com/file/d/1oLbEB3EDDzFkoCDZdwqK_lTCbqnHanMv/view?usp=drivesdk'`.
+The first command generates automatic MobileSAM proposals and saves masks for all 110 images. The second applies recorded human-selected positive point and box prompts to visible missed eggs; it records every prompt in `outputs/reference_repairs.json` and creates a QC contact sheet. Two boiling-water frames have no visible egg mask. The experiment command uses a deterministic 88/22 split that groups identical source names, near-duplicate pHashes, nearby captures with similar pHashes, similar HSV color histograms, and ORB-verified scenes. The audit confirms no exact duplicate or rule-matching pair crosses the split. The tracker writes a full 60-second MP4 and `outputs/tracks.csv`. To rebuild the report with the verified public video link, rerun the final command with `--video-url 'https://drive.google.com/file/d/1oLbEB3EDDzFkoCDZdwqK_lTCbqnHanMv/view?usp=drivesdk'`.
 
 ## Method and limitations
 
-The final image method forms bright, low-saturation seeds, filters implausible components, and runs local GrabCut to grow the seeds to object boundaries. This uses only classical image processing. The video uses a stricter brightness threshold and a fixed table region because that scene contains hands, captions, and reflections. The tracker performs global minimum-distance association and maintains two IDs; uncertain reidentification after an occlusion is marked with `?` and logged in the CSV.
+The final image method forms bright, low-saturation seeds, filters implausible components, and runs local GrabCut to grow the seeds to object boundaries. If it finds no egg, a conservative global threshold is used. This uses only classical image processing. The video uses a stricter brightness threshold and a fixed table region because that scene contains hands, captions, and reflections. The tracker performs global minimum-distance association and maintains two IDs; uncertain reidentification after an occlusion is marked with `?` and logged in the CSV.
 
-The reference masks are imperfect, especially where eggs touch similar-colored backgrounds or are partly obscured. The evaluation was exploratory: method design was informed by early inspection of errors, so independent human-labeled masks are needed for a definitive estimate. The fixed video region is tailored to this clip.
+The reference masks are imperfect, especially where eggs touch similar-colored backgrounds or are partly obscured. The evaluation is exploratory: an earlier split's results were seen before strengthening scene grouping, so this revised split is not a pristine untouched test. Independent capture-session labels and human instance masks are needed for a definitive estimate. The fixed video region is tailored to this clip.
 
 ## Files
 
@@ -67,6 +70,8 @@ The reference masks are imperfect, especially where eggs touch similar-colored b
 - `scripts/generate_reference.py` — pretrained mask generation.
 - `scripts/repair_reference.py` — recorded visual-QC prompts and final contact sheet.
 - `scripts/run_experiments.py` — trial log, selection, evaluation, and error explorer.
+- `scripts/audit_split.py` — exact 4:1 and cross-partition similarity audit.
+- `scripts/tune_fallback.py` — development-only fallback comparison.
 - `scripts/track_video.py` — separate egg tracks and annotated video.
 - `scripts/make_report.py` — PDF built from measured outputs.
 - `outputs/` — masks, figures, logs, metrics, explorer, video, and report.

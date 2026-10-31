@@ -1,6 +1,6 @@
 {
-  "name": "T8 graph cut 180",
-  "method": "grabcut",
+  "name": "T9 graph cut with empty-mask fallback",
+  "method": "grabcut_fallback",
   "light": 180,
   "sat": 110,
   "min_area": 0.003
