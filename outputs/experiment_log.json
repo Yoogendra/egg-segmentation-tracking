@@ -1,0 +1,146 @@
+[
+  {
+    "name": "T1 global bright",
+    "method": "global",
+    "light": 165,
+    "sat": 255,
+    "min_area": 0.003,
+    "reason": "Simple light-egg baseline",
+    "dev": {
+      "iou": 0.3585284597792315,
+      "dice": 0.460301141744473,
+      "precision": 0.47250554699122954,
+      "recall": 0.5223348400331647,
+      "object_precision": 0.3287472943722944,
+      "object_recall": 0.4900568181818182,
+      "count_error": 1.7727272727272727
+    },
+    "decision": "discarded: lower dev mean IoU"
+  },
+  {
+    "name": "T2 Otsu",
+    "method": "otsu",
+    "light": 0,
+    "sat": 255,
+    "min_area": 0.003,
+    "reason": "Adaptive global threshold for varying exposure",
+    "dev": {
+      "iou": 0.2599737995086631,
+      "dice": 0.3343652386914629,
+      "precision": 0.29515889163785797,
+      "recall": 0.4890071244690734,
+      "object_precision": 0.22008928571428568,
+      "object_recall": 0.3442234848484848,
+      "count_error": 1.8522727272727273
+    },
+    "decision": "discarded: lower dev mean IoU"
+  },
+  {
+    "name": "T3 color and shape",
+    "method": "refined",
+    "light": 145,
+    "sat": 100,
+    "min_area": 0.003,
+    "reason": "Reject colored background and non-elliptical regions",
+    "dev": {
+      "iou": 0.2634611453769984,
+      "dice": 0.31141458310617937,
+      "precision": 0.34353709827036877,
+      "recall": 0.3003449077458822,
+      "object_precision": 0.2778409090909091,
+      "object_recall": 0.3271780303030303,
+      "count_error": 0.7840909090909091
+    },
+    "decision": "discarded: lower dev mean IoU"
+  },
+  {
+    "name": "T4 stricter color",
+    "method": "refined",
+    "light": 160,
+    "sat": 75,
+    "min_area": 0.003,
+    "reason": "Reduce bright clutter false positives",
+    "dev": {
+      "iou": 0.31952763875616164,
+      "dice": 0.3800841739666918,
+      "precision": 0.45398770475012584,
+      "recall": 0.34163442049905296,
+      "object_precision": 0.3844696969696969,
+      "object_recall": 0.40104166666666663,
+      "count_error": 0.6136363636363636
+    },
+    "decision": "discarded: lower dev mean IoU"
+  },
+  {
+    "name": "T5 small components",
+    "method": "refined",
+    "light": 145,
+    "sat": 100,
+    "min_area": 0.001,
+    "reason": "Recover distant eggs",
+    "dev": {
+      "iou": 0.26278355341384463,
+      "dice": 0.31180468633454006,
+      "precision": 0.3425634178744027,
+      "recall": 0.30155825249893087,
+      "object_precision": 0.24734848484848485,
+      "object_recall": 0.3271780303030303,
+      "count_error": 1.375
+    },
+    "decision": "discarded: lower dev mean IoU"
+  },
+  {
+    "name": "T6 high brightness",
+    "method": "refined",
+    "light": 180,
+    "sat": 100,
+    "min_area": 0.003,
+    "reason": "Test stronger foreground contrast",
+    "dev": {
+      "iou": 0.3613865005398536,
+      "dice": 0.45382097750625955,
+      "precision": 0.5995222379484335,
+      "recall": 0.37931903749407475,
+      "object_precision": 0.39583333333333326,
+      "object_recall": 0.4275568181818182,
+      "count_error": 0.5681818181818182
+    },
+    "decision": "discarded: lower dev mean IoU"
+  },
+  {
+    "name": "T7 graph cut 160",
+    "method": "grabcut",
+    "light": 160,
+    "sat": 110,
+    "min_area": 0.003,
+    "reason": "Grow bright egg cores to full boundaries using local color models",
+    "dev": {
+      "iou": 0.3562609067941245,
+      "dice": 0.41307164577835354,
+      "precision": 0.4127732576492207,
+      "recall": 0.44523830000265296,
+      "object_precision": 0.3587121212121212,
+      "object_recall": 0.4502840909090909,
+      "count_error": 0.8295454545454546
+    },
+    "decision": "discarded: lower dev mean IoU"
+  },
+  {
+    "name": "T8 graph cut 180",
+    "method": "grabcut",
+    "light": 180,
+    "sat": 110,
+    "min_area": 0.003,
+    "reason": "Stricter seeds before local graph cut",
+    "dev": {
+      "iou": 0.46125034805542436,
+      "dice": 0.5274779165115119,
+      "precision": 0.568152699519713,
+      "recall": 0.511701091285691,
+      "object_precision": 0.4431818181818182,
+      "object_recall": 0.5260416666666666,
+      "count_error": 0.7386363636363636
+    },
+    "decision": "kept: highest dev mean IoU"
+  }
+]

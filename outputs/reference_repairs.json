@@ -1,0 +1,239 @@
+[
+  {
+    "index": 5,
+    "point": [
+      305,
+      305
+    ],
+    "accepted": true,
+    "area": 51055
+  },
+  {
+    "index": 23,
+    "point": [
+      170,
+      390
+    ],
+    "accepted": true,
+    "area": 31645
+  },
+  {
+    "index": 25,
+    "point": [
+      525,
+      420
+    ],
+    "accepted": true,
+    "area": 19178
+  },
+  {
+    "index": 32,
+    "point": [
+      175,
+      290
+    ],
+    "accepted": true,
+    "area": 32463
+  },
+  {
+    "index": 33,
+    "point": [
+      175,
+      305
+    ],
+    "accepted": true,
+    "area": 30971
+  },
+  {
+    "index": 36,
+    "point": [
+      170,
+      330
+    ],
+    "accepted": true,
+    "area": 19919
+  },
+  {
+    "index": 42,
+    "point": [
+      390,
+      245
+    ],
+    "accepted": true,
+    "area": 37204
+  },
+  {
+    "index": 43,
+    "point": [
+      435,
+      190
+    ],
+    "accepted": true,
+    "area": 49531
+  },
+  {
+    "index": 45,
+    "point": [
+      465,
+      370
+    ],
+    "accepted": true,
+    "area": 38528
+  },
+  {
+    "index": 53,
+    "point": [
+      225,
+      305
+    ],
+    "accepted": true,
+    "area": 31796
+  },
+  {
+    "index": 63,
+    "point": [
+      390,
+      285
+    ],
+    "accepted": true,
+    "area": 10800
+  },
+  {
+    "index": 70,
+    "point": [
+      430,
+      330
+    ],
+    "accepted": true,
+    "area": 20122
+  },
+  {
+    "index": 76,
+    "point": [
+      465,
+      305
+    ],
+    "accepted": true,
+    "area": 19761
+  },
+  {
+    "index": 79,
+    "point": [
+      260,
+      105
+    ],
+    "accepted": true,
+    "area": 17540
+  },
+  {
+    "index": 86,
+    "point": [
+      295,
+      385
+    ],
+    "accepted": true,
+    "area": 28128
+  },
+  {
+    "index": 92,
+    "point": [
+      305,
+      445
+    ],
+    "accepted": true,
+    "area": 70712
+  },
+  {
+    "index": 98,
+    "point": [
+      155,
+      285
+    ],
+    "accepted": true,
+    "area": 19214
+  },
+  {
+    "index": 99,
+    "point": [
+      220,
+      350
+    ],
+    "accepted": true,
+    "area": 27165
+  },
+  {
+    "index": 107,
+    "point": [
+      205,
+      405
+    ],
+    "accepted": true,
+    "area": 33843
+  },
+  {
+    "index": 26,
+    "box": [
+      250,
+      110,
+      525,
+      270
+    ],
+    "accepted": true,
+    "area": 27323
+  },
+  {
+    "index": 28,
+    "box": [
+      25,
+      195,
+      190,
+      350
+    ],
+    "accepted": true,
+    "area": 17016
+  },
+  {
+    "index": 100,
+    "box": [
+      260,
+      0,
+      450,
+      190
+    ],
+    "accepted": true,
+    "area": 25780
+  },
+  {
+    "index": 100,
+    "box": [
+      275,
+      205,
+      480,
+      395
+    ],
+    "accepted": true,
+    "area": 26611
+  },
+  {
+    "index": 102,
+    "box": [
+      70,
+      330,
+      315,
+      465
+    ],
+    "accepted": true,
+    "area": 22958
+  },
+  {
+    "index": 102,
+    "box": [
+      380,
+      215,
+      590,
+      360
+    ],
+    "accepted": true,
+    "area": 20839
+  }
+]

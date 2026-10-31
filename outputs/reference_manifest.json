@@ -1,0 +1,2348 @@
+[
+  {
+    "image": "egg.v1i.folder/test/egg/not_damaged_101_jpg.rf.479d12a2b41a5ec6d718dcdabd14b0c9.jpg",
+    "mask": "outputs/reference/not_damaged_101_jpg.png",
+    "mask_pixels": 91653,
+    "selected": [
+      {
+        "area": 91064.0,
+        "circularity": 0.7044018123966347,
+        "solidity": 0.9884240289589225,
+        "aspect": 1.3952702702702702,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 198.27085856436778,
+        "score": 3.6841801341773963
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/test/egg/not_damaged_125_jpg.rf.b19353b1f84dcbef1ec088b850927bb3.jpg",
+    "mask": "outputs/reference/not_damaged_125_jpg.png",
+    "mask_pixels": 3672,
+    "selected": [
+      {
+        "area": 3550.5,
+        "circularity": 0.6576434656629254,
+        "solidity": 0.9576534052596088,
+        "aspect": 1.0,
+        "border": 0.0,
+        "proposal": 6,
+        "brightness": 93.4297385620915,
+        "score": 2.206277176456206
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/test/egg/not_damaged_14_jpg.rf.dc96559078b03433d2b65e5055904af1.jpg",
+    "mask": "outputs/reference/not_damaged_14_jpg.png",
+    "mask_pixels": 28732,
+    "selected": [
+      {
+        "area": 28404.5,
+        "circularity": 0.7186111422687844,
+        "solidity": 0.9837226618642747,
+        "aspect": 1.5723684210526316,
+        "border": 0.0,
+        "proposal": 2,
+        "brightness": 198.0059863566755,
+        "score": 3.683034076318222
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/test/egg/not_damaged_152_jpg.rf.a57edb18d395ce87e23f7abccbd1ad69.jpg",
+    "mask": "outputs/reference/not_damaged_152_jpg.png",
+    "mask_pixels": 22005,
+    "selected": [
+      {
+        "area": 21721.0,
+        "circularity": 0.7298045724204595,
+        "solidity": 0.9811636100822115,
+        "aspect": 1.3448275862068966,
+        "border": 0.0,
+        "proposal": 3,
+        "brightness": 204.01063394683027,
+        "score": 3.468536541877671
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/test/egg/not_damaged_153_jpg.rf.ea842e70f08e63e69bbcc74f1bc143a8.jpg",
+    "mask": "outputs/reference/not_damaged_153_jpg.png",
+    "mask_pixels": 35479,
+    "selected": [
+      {
+        "area": 35117.0,
+        "circularity": 0.7238145017925656,
+        "solidity": 0.9840553718545088,
+        "aspect": 1.2722513089005236,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 195.47430874601878,
+        "score": 3.6852414173771684
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/test/egg/not_damaged_161_jpg.rf.fd216aa5e11e147fc1527478cceae94e.jpg",
+    "mask": "outputs/reference/not_damaged_161_jpg.png",
+    "mask_pixels": 51055,
+    "selected": [],
+    "human_prompted": [
+      [
+        305,
+        305
+      ]
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/test/egg/not_damaged_1_jpg.rf.d74c98a14f068b48c1f58fd573361f1f.jpg",
+    "mask": "outputs/reference/not_damaged_1_jpg.png",
+    "mask_pixels": 55915,
+    "selected": [
+      {
+        "area": 55454.0,
+        "circularity": 0.6952057141839361,
+        "solidity": 0.9874111928206406,
+        "aspect": 1.4155844155844155,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 186.7234015917017,
+        "score": 3.616233914963085
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/test/egg/not_damaged_30_jpg.rf.48e9261777355fe67139ac1c5eae596b.jpg",
+    "mask": "outputs/reference/not_damaged_30_jpg.png",
+    "mask_pixels": 37023,
+    "selected": [
+      {
+        "area": 36660.0,
+        "circularity": 0.7438690724574257,
+        "solidity": 0.984954325631381,
+        "aspect": 1.2010050251256281,
+        "border": 0.0,
+        "proposal": 2,
+        "brightness": 201.56735002565972,
+        "score": 3.7288233980888066
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/test/egg/not_damaged_43_jpg.rf.66c31342150e751c30214786e72c8683.jpg",
+    "mask": "outputs/reference/not_damaged_43_jpg.png",
+    "mask_pixels": 78100,
+    "selected": [
+      {
+        "area": 60202.0,
+        "circularity": 0.7620622682145092,
+        "solidity": 0.9879383625711801,
+        "aspect": 0.9822064056939501,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 191.30268211865945,
+        "score": 3.7065140413789863
+      },
+      {
+        "area": 2911.5,
+        "circularity": 0.7647477450156105,
+        "solidity": 0.9816250842886042,
+        "aspect": 1.0,
+        "border": 0.0,
+        "proposal": 12,
+        "brightness": 99.29503311258279,
+        "score": 2.344393056251057
+      },
+      {
+        "area": 2918.5,
+        "circularity": 0.7551033215824186,
+        "solidity": 0.9692793091996015,
+        "aspect": 1.0357142857142858,
+        "border": 0.0,
+        "proposal": 0,
+        "brightness": 103.55037991410637,
+        "score": 2.3439237323614805
+      },
+      {
+        "area": 2981.5,
+        "circularity": 0.7714033076230876,
+        "solidity": 0.9751430907604252,
+        "aspect": 0.9655172413793104,
+        "border": 0.0,
+        "proposal": 27,
+        "brightness": 74.35372168284789,
+        "score": 2.2223014744316805
+      },
+      {
+        "area": 1815.0,
+        "circularity": 0.681277501690524,
+        "solidity": 0.9789644012944984,
+        "aspect": 0.55,
+        "border": 0.0,
+        "proposal": 24,
+        "brightness": 99.31233595800525,
+        "score": 2.2201057591143343
+      },
+      {
+        "area": 1857.5,
+        "circularity": 0.6953847328946953,
+        "solidity": 0.9656875487392773,
+        "aspect": 0.5555555555555556,
+        "border": 0.0,
+        "proposal": 47,
+        "brightness": 69.4869029275809,
+        "score": 2.073291254977234
+      },
+      {
+        "area": 2470.0,
+        "circularity": 0.7559801676497678,
+        "solidity": 0.9566227730441518,
+        "aspect": 0.8620689655172413,
+        "border": 0.0,
+        "proposal": 26,
+        "brightness": 45.88400155702608,
+        "score": 2.0281697118719073
+      },
+      {
+        "area": 1791.5,
+        "circularity": 0.6829734095148925,
+        "solidity": 0.9409138655462185,
+        "aspect": 0.6271186440677966,
+        "border": 0.0,
+        "proposal": 18,
+        "brightness": 61.19298245614035,
+        "score": 1.9923347487257415
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/test/egg/not_damaged_4_jpg.rf.36c78b63ea4710d9642651ac3292fd58.jpg",
+    "mask": "outputs/reference/not_damaged_4_jpg.png",
+    "mask_pixels": 95946,
+    "selected": [
+      {
+        "area": 95352.0,
+        "circularity": 0.7233302296616396,
+        "solidity": 0.9880370752229124,
+        "aspect": 1.3431372549019607,
+        "border": 0.0,
+        "proposal": 2,
+        "brightness": 198.00406478644237,
+        "score": 3.7013876288167635
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/test/egg/not_damaged_78_jpg.rf.d3a6e8624d192abc58ff7df9d5781bb5.jpg",
+    "mask": "outputs/reference/not_damaged_78_jpg.png",
+    "mask_pixels": 58305,
+    "selected": [
+      {
+        "area": 57843.0,
+        "circularity": 0.73802809474461,
+        "solidity": 0.9844444066238917,
+        "aspect": 1.2276422764227641,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 169.42480061744277,
+        "score": 3.569596504455715
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/Unlabeled/not_damaged_135_jpg.rf.a6d81ffb82470e031fb3ab469c8f0db2.jpg",
+    "mask": "outputs/reference/not_damaged_135_jpg.png",
+    "mask_pixels": 0,
+    "selected": []
+  },
+  {
+    "image": "egg.v1i.folder/train/Unlabeled/not_damaged_145_jpg.rf.5147bfde42f30a27504377fd5ef13b05.jpg",
+    "mask": "outputs/reference/not_damaged_145_jpg.png",
+    "mask_pixels": 5408,
+    "selected": [
+      {
+        "area": 5258.0,
+        "circularity": 0.6677284308856936,
+        "solidity": 0.934672473557906,
+        "aspect": 1.139240506329114,
+        "border": 0.0,
+        "proposal": 3,
+        "brightness": 230.66531065088756,
+        "score": 2.785785391050742
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_100_jpg.rf.5d780a6024004fa2f68741fa56ddf4c9.jpg",
+    "mask": "outputs/reference/not_damaged_100_jpg.png",
+    "mask_pixels": 117098,
+    "selected": [
+      {
+        "area": 116455.5,
+        "circularity": 0.7553182629109637,
+        "solidity": 0.990356281810876,
+        "aspect": 1.0025839793281655,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 178.61718389724845,
+        "score": 3.638760464208082
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_103_jpg.rf.c0bd961caec5acf3a6582c9cb2551634.jpg",
+    "mask": "outputs/reference/not_damaged_103_jpg.png",
+    "mask_pixels": 83596,
+    "selected": [
+      {
+        "area": 32186.5,
+        "circularity": 0.71953818955845,
+        "solidity": 0.9840408456517419,
+        "aspect": 1.4529411764705882,
+        "border": 0.0,
+        "proposal": 2,
+        "brightness": 169.11145263416734,
+        "score": 3.5491362983810286
+      },
+      {
+        "area": 25617.0,
+        "circularity": 0.74839702628522,
+        "solidity": 0.9820586543990799,
+        "aspect": 0.9468085106382979,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 177.50217986805046,
+        "score": 3.511416635828123
+      },
+      {
+        "area": 24846.5,
+        "circularity": 0.6415873116960394,
+        "solidity": 0.9781894057203598,
+        "aspect": 1.155688622754491,
+        "border": 0.0,
+        "proposal": 3,
+        "brightness": 181.37855466730304,
+        "score": 3.3932466391904144
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_104_jpg.rf.3bf8cb51d5ad8934390c8e2c3b79b32f.jpg",
+    "mask": "outputs/reference/not_damaged_104_jpg.png",
+    "mask_pixels": 33003,
+    "selected": [
+      {
+        "area": 32660.5,
+        "circularity": 0.7466597076952441,
+        "solidity": 0.982876660798387,
+        "aspect": 0.9903846153846154,
+        "border": 0.0,
+        "proposal": 2,
+        "brightness": 212.0094233857528,
+        "score": 3.729536368493631
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_105_jpg.rf.6b94b57d4e4cb521abbec55bb95c2a76.jpg",
+    "mask": "outputs/reference/not_damaged_105_jpg.png",
+    "mask_pixels": 58388,
+    "selected": [
+      {
+        "area": 20681.5,
+        "circularity": 0.6845733901894776,
+        "solidity": 0.9801426506480889,
+        "aspect": 1.736,
+        "border": 0.0,
+        "proposal": 2,
+        "brightness": 203.72725104921787,
+        "score": 3.3860295174000665
+      },
+      {
+        "area": 18370.5,
+        "circularity": 0.7530750818190091,
+        "solidity": 0.9787421082074642,
+        "aspect": 1.0463576158940397,
+        "border": 0.0,
+        "proposal": 4,
+        "brightness": 205.22907607236806,
+        "score": 3.3725293831068304
+      },
+      {
+        "area": 18527.0,
+        "circularity": 0.7068584825604234,
+        "solidity": 0.9739007017636082,
+        "aspect": 1.2681159420289856,
+        "border": 0.0,
+        "proposal": 3,
+        "brightness": 204.31442558399405,
+        "score": 3.326929664234746
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_106_jpg.rf.4ab043b322cc9e55bdf788a4d69ae74b.jpg",
+    "mask": "outputs/reference/not_damaged_106_jpg.png",
+    "mask_pixels": 48655,
+    "selected": [
+      {
+        "area": 46421.0,
+        "circularity": 0.7523293254517824,
+        "solidity": 0.985866437301562,
+        "aspect": 0.98,
+        "border": 0.0,
+        "proposal": 0,
+        "brightness": 195.30270605070373,
+        "score": 3.7147092930068633
+      },
+      {
+        "area": 1739.0,
+        "circularity": 0.5138367414987312,
+        "solidity": 0.8996378685980342,
+        "aspect": 1.2264150943396226,
+        "border": 0.0,
+        "proposal": 4,
+        "brightness": 189.71919302071973,
+        "score": 2.4227220818967923
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_108_jpg.rf.de0bd2447ade8d891625ac0dd055667a.jpg",
+    "mask": "outputs/reference/not_damaged_108_jpg.png",
+    "mask_pixels": 14354,
+    "selected": [
+      {
+        "area": 14130.5,
+        "circularity": 0.7700312297417635,
+        "solidity": 0.9819666435024322,
+        "aspect": 1.0859375,
+        "border": 0.0,
+        "proposal": 2,
+        "brightness": 197.50048766894247,
+        "score": 3.232333040383551
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_10_jpg.rf.2347ffa54eea250ab240def10a3eb78f.jpg",
+    "mask": "outputs/reference/not_damaged_10_jpg.png",
+    "mask_pixels": 27268,
+    "selected": [
+      {
+        "area": 26841.5,
+        "circularity": 0.6403919186053861,
+        "solidity": 0.9639092884204478,
+        "aspect": 1.44375,
+        "border": 0.0,
+        "proposal": 2,
+        "brightness": 193.648599090509,
+        "score": 3.5087014290408787
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_110_jpg.rf.2de10ae949146248df94e52f9065bdd8.jpg",
+    "mask": "outputs/reference/not_damaged_110_jpg.png",
+    "mask_pixels": 56367,
+    "selected": [
+      {
+        "area": 55915.5,
+        "circularity": 0.7351796494594942,
+        "solidity": 0.9858597434654207,
+        "aspect": 1.18,
+        "border": 0.0,
+        "proposal": 2,
+        "brightness": 181.93524579984742,
+        "score": 3.630715621924152
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_111_jpg.rf.d56bdd5f452dfc3935b4d6962ed33309.jpg",
+    "mask": "outputs/reference/not_damaged_111_jpg.png",
+    "mask_pixels": 52972,
+    "selected": [
+      {
+        "area": 52542.0,
+        "circularity": 0.7605649309848055,
+        "solidity": 0.986435618470088,
+        "aspect": 1.08,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 217.57252888318357,
+        "score": 3.7470005494548935
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_112_jpg.rf.2ecb081cd9d32a7ff8c9f4db24e911b9.jpg",
+    "mask": "outputs/reference/not_damaged_112_jpg.png",
+    "mask_pixels": 40608,
+    "selected": [
+      {
+        "area": 40218.5,
+        "circularity": 0.7142232863296949,
+        "solidity": 0.9853852750214382,
+        "aspect": 1.5026737967914439,
+        "border": 0.0,
+        "proposal": 3,
+        "brightness": 209.03696315996848,
+        "score": 3.699608561351133
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_113_jpg.rf.75e3389c0809c7c0f42fbfd25219e65e.jpg",
+    "mask": "outputs/reference/not_damaged_113_jpg.png",
+    "mask_pixels": 49414,
+    "selected": [
+      {
+        "area": 17520.0,
+        "circularity": 0.7599346419116146,
+        "solidity": 0.9805512802574506,
+        "aspect": 1.0616438356164384,
+        "border": 0.0,
+        "proposal": 2,
+        "brightness": 171.66340255501154,
+        "score": 3.2098520420869803
+      }
+    ],
+    "human_prompted": [
+      [
+        170,
+        390
+      ]
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_114_jpg.rf.7ccf87a5610bafd963468463b2e2907c.jpg",
+    "mask": "outputs/reference/not_damaged_114_jpg.png",
+    "mask_pixels": 52744,
+    "selected": [
+      {
+        "area": 24173.5,
+        "circularity": 0.7550430906818097,
+        "solidity": 0.9847241175631912,
+        "aspect": 1.1717791411042944,
+        "border": 0.0,
+        "proposal": 0,
+        "brightness": 206.81317693219438,
+        "score": 3.582871979450358
+      },
+      {
+        "area": 27946.0,
+        "circularity": 0.6923674960941062,
+        "solidity": 0.9828720149122498,
+        "aspect": 1.710344827586207,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 156.353219931393,
+        "score": 3.4316847401276065
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_116_jpg.rf.43fecd96347e2129115fceed65986cc9.jpg",
+    "mask": "outputs/reference/not_damaged_116_jpg.png",
+    "mask_pixels": 19178,
+    "selected": [],
+    "human_prompted": [
+      [
+        525,
+        420
+      ]
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_117_jpg.rf.d25ded9e7408f9b89b3cfb3de581f6a6.jpg",
+    "mask": "outputs/reference/not_damaged_117_jpg.png",
+    "mask_pixels": 27323,
+    "selected": [],
+    "human_prompted": [
+      [
+        545,
+        175
+      ]
+    ],
+    "human_box_reviewed": [
+      [
+        250,
+        110,
+        525,
+        270
+      ]
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_118_jpg.rf.3e17ba84bcb3b57ebbf743b145c5ae27.jpg",
+    "mask": "outputs/reference/not_damaged_118_jpg.png",
+    "mask_pixels": 52114,
+    "selected": [
+      {
+        "area": 49065.5,
+        "circularity": 0.7388920594895274,
+        "solidity": 0.9815946624521111,
+        "aspect": 1.0158102766798418,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 163.70091135045567,
+        "score": 3.538991278693917
+      },
+      {
+        "area": 2527.5,
+        "circularity": 0.7100528245853681,
+        "solidity": 0.9555765595463138,
+        "aspect": 1.0,
+        "border": 0.0,
+        "proposal": 6,
+        "brightness": 126.34716406547392,
+        "score": 2.385517408700123
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_121_jpg.rf.0506fe180f5fed88ae65348130fb5192.jpg",
+    "mask": "outputs/reference/not_damaged_121_jpg.png",
+    "mask_pixels": 48651,
+    "selected": [
+      {
+        "area": 16318.5,
+        "circularity": 0.7559426201075385,
+        "solidity": 0.9807969707897584,
+        "aspect": 1.070921985815603,
+        "border": 0.0,
+        "proposal": 2,
+        "brightness": 195.43251404070296,
+        "score": 3.2830462738240263
+      },
+      {
+        "area": 14833.0,
+        "circularity": 0.6837837174893902,
+        "solidity": 0.9693187387681751,
+        "aspect": 1.375,
+        "border": 0.0,
+        "proposal": 0,
+        "brightness": 199.72393207747413,
+        "score": 3.169056101019936
+      }
+    ],
+    "human_prompted": [
+      [
+        255,
+        290
+      ]
+    ],
+    "human_box_reviewed": [
+      [
+        25,
+        195,
+        190,
+        350
+      ]
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_123_jpg.rf.11d40a86277d3ab3fce1c5c6cbf14db0.jpg",
+    "mask": "outputs/reference/not_damaged_123_jpg.png",
+    "mask_pixels": 19547,
+    "selected": [
+      {
+        "area": 19277.0,
+        "circularity": 0.707311113944564,
+        "solidity": 0.9721374719483598,
+        "aspect": 1.05,
+        "border": 0.0,
+        "proposal": 4,
+        "brightness": 189.49163554509644,
+        "score": 3.299235167636263
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_124_jpg.rf.931f62b8d40a093039633b898e0e9114.jpg",
+    "mask": "outputs/reference/not_damaged_124_jpg.png",
+    "mask_pixels": 0,
+    "selected": []
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_127_jpg.rf.3a541bab7c9e2c2e43c2fdbf391617b5.jpg",
+    "mask": "outputs/reference/not_damaged_127_jpg.png",
+    "mask_pixels": 17719,
+    "selected": [
+      {
+        "area": 17471.5,
+        "circularity": 0.7651650865737881,
+        "solidity": 0.982234715390021,
+        "aspect": 1.0547945205479452,
+        "border": 0.0,
+        "proposal": 2,
+        "brightness": 203.44116485128959,
+        "score": 3.3567573633477377
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_128_jpg.rf.95a7ef96dcc9e14fa7137708df6f2e60.jpg",
+    "mask": "outputs/reference/not_damaged_128_jpg.png",
+    "mask_pixels": 60760,
+    "selected": [
+      {
+        "area": 27968.5,
+        "circularity": 0.700294640753615,
+        "solidity": 0.9822297143057823,
+        "aspect": 1.4375,
+        "border": 0.0,
+        "proposal": 2,
+        "brightness": 202.40693359720112,
+        "score": 3.6579882222468973
+      }
+    ],
+    "human_prompted": [
+      [
+        175,
+        290
+      ]
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_129_jpg.rf.3cee5e92daed138fcdc13d9aa62c2785.jpg",
+    "mask": "outputs/reference/not_damaged_129_jpg.png",
+    "mask_pixels": 53781,
+    "selected": [
+      {
+        "area": 22520.0,
+        "circularity": 0.7258781213961557,
+        "solidity": 0.9805586397579082,
+        "aspect": 1.3,
+        "border": 0.0,
+        "proposal": 0,
+        "brightness": 213.9706269180184,
+        "score": 3.4918720290112066
+      }
+    ],
+    "human_prompted": [
+      [
+        175,
+        305
+      ]
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_12_jpg.rf.339e366cebec5c32e751e8500aa12f3e.jpg",
+    "mask": "outputs/reference/not_damaged_12_jpg.png",
+    "mask_pixels": 23582,
+    "selected": [
+      {
+        "area": 23248.5,
+        "circularity": 0.5582681596742088,
+        "solidity": 0.8881948424068767,
+        "aspect": 1.0,
+        "border": 0.0,
+        "proposal": 6,
+        "brightness": 206.85293868204562,
+        "score": 3.2573063335543
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_131_jpg.rf.4ac62f5b18b131bac463f705d0969147.jpg",
+    "mask": "outputs/reference/not_damaged_131_jpg.png",
+    "mask_pixels": 77517,
+    "selected": [
+      {
+        "area": 76977.5,
+        "circularity": 0.7114344920204907,
+        "solidity": 0.9842474379710905,
+        "aspect": 1.4029850746268657,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 175.62868790071855,
+        "score": 3.573825369495174
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_132_jpg.rf.5deff743ad11d33750171617e116bd7a.jpg",
+    "mask": "outputs/reference/not_damaged_132_jpg.png",
+    "mask_pixels": 43642,
+    "selected": [
+      {
+        "area": 12599.0,
+        "circularity": 0.7354862278374454,
+        "solidity": 0.9792095752535654,
+        "aspect": 1.3888888888888888,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 191.76143203314314,
+        "score": 3.1129212110245836
+      },
+      {
+        "area": 10733.5,
+        "circularity": 0.7483260806567055,
+        "solidity": 0.9754623528877175,
+        "aspect": 1.0695652173913044,
+        "border": 0.0,
+        "proposal": 2,
+        "brightness": 204.6989935956084,
+        "score": 3.09814320474978
+      }
+    ],
+    "human_prompted": [
+      [
+        170,
+        330
+      ]
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_134_jpg.rf.fb4e9c442527db9e71d4a95584773fa2.jpg",
+    "mask": "outputs/reference/not_damaged_134_jpg.png",
+    "mask_pixels": 76631,
+    "selected": [
+      {
+        "area": 36528.0,
+        "circularity": 0.6779971218730796,
+        "solidity": 0.9844230043658707,
+        "aspect": 1.808641975308642,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 206.80157676573378,
+        "score": 3.6624201262389504
+      },
+      {
+        "area": 21737.5,
+        "circularity": 0.7492459839235304,
+        "solidity": 0.9814212831279064,
+        "aspect": 1.0179640718562875,
+        "border": 0.0,
+        "proposal": 3,
+        "brightness": 200.92080475537264,
+        "score": 3.488811100756794
+      },
+      {
+        "area": 17738.0,
+        "circularity": 0.7384199901187367,
+        "solidity": 0.9806230477927965,
+        "aspect": 1.2666666666666666,
+        "border": 0.0,
+        "proposal": 2,
+        "brightness": 205.01372549019607,
+        "score": 3.337695381661533
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_138_jpg.rf.4db6e0e16ddec73ff527d4efbb119f7a.jpg",
+    "mask": "outputs/reference/not_damaged_138_jpg.png",
+    "mask_pixels": 50283,
+    "selected": [
+      {
+        "area": 49855.5,
+        "circularity": 0.714101545436457,
+        "solidity": 0.9837506659563132,
+        "aspect": 1.2850877192982457,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 182.76037627031005,
+        "score": 3.6116540927443204
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_139_jpg.rf.9f18c65b30035092401a5281a03b7124.jpg",
+    "mask": "outputs/reference/not_damaged_139_jpg.png",
+    "mask_pixels": 40434,
+    "selected": [
+      {
+        "area": 40058.0,
+        "circularity": 0.7585633494267582,
+        "solidity": 0.9858368095290831,
+        "aspect": 1.0222222222222221,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 189.89847652965327,
+        "score": 3.6938925416041077
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_13_jpg.rf.60964651b01aed5680a994ecbd7012ea.jpg",
+    "mask": "outputs/reference/not_damaged_13_jpg.png",
+    "mask_pixels": 16491,
+    "selected": [
+      {
+        "area": 16235.5,
+        "circularity": 0.672406003627097,
+        "solidity": 0.9605383818961692,
+        "aspect": 1.537190082644628,
+        "border": 0.0,
+        "proposal": 2,
+        "brightness": 210.488205687951,
+        "score": 3.1991936879786236
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_141_jpg.rf.67be7a06282cf025b53162b5a9df15ff.jpg",
+    "mask": "outputs/reference/not_damaged_141_jpg.png",
+    "mask_pixels": 86845,
+    "selected": [
+      {
+        "area": 86262.0,
+        "circularity": 0.687196514893673,
+        "solidity": 0.9887442116363303,
+        "aspect": 1.7470355731225296,
+        "border": 0.0,
+        "proposal": 0,
+        "brightness": 183.3697737348149,
+        "score": 3.592789595204078
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_142_jpg.rf.5b29be6bd5a6cfc192f51a5b580c1a07.jpg",
+    "mask": "outputs/reference/not_damaged_142_jpg.png",
+    "mask_pixels": 90759,
+    "selected": [
+      {
+        "area": 27290.0,
+        "circularity": 0.6780737997076178,
+        "solidity": 0.9409209233368386,
+        "aspect": 1.0203045685279188,
+        "border": 0.0,
+        "proposal": 3,
+        "brightness": 177.49800854515172,
+        "score": 3.4582844309487863
+      },
+      {
+        "area": 25646.5,
+        "circularity": 0.7350656905333912,
+        "solidity": 0.9786312556045256,
+        "aspect": 1.28125,
+        "border": 0.0,
+        "proposal": 4,
+        "brightness": 166.40638002773926,
+        "score": 3.440207780428399
+      }
+    ],
+    "human_prompted": [
+      [
+        390,
+        245
+      ]
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_144_jpg.rf.a9435fb1769a2350dbdd400bcc46a4eb.jpg",
+    "mask": "outputs/reference/not_damaged_144_jpg.png",
+    "mask_pixels": 118774,
+    "selected": [
+      {
+        "area": 68761.5,
+        "circularity": 0.7538773123865496,
+        "solidity": 0.9878816176998779,
+        "aspect": 1.1330935251798562,
+        "border": 0.0,
+        "proposal": 2,
+        "brightness": 174.56473578556677,
+        "score": 3.6145826090142616
+      }
+    ],
+    "human_prompted": [
+      [
+        435,
+        190
+      ]
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_146_jpg.rf.a7df655e36c3a2faab1c3f248081504d.jpg",
+    "mask": "outputs/reference/not_damaged_146_jpg.png",
+    "mask_pixels": 74879,
+    "selected": [
+      {
+        "area": 74368.0,
+        "circularity": 0.7592149335011937,
+        "solidity": 0.9889558967266634,
+        "aspect": 0.9558359621451105,
+        "border": 0.0,
+        "proposal": 2,
+        "brightness": 163.14682354198106,
+        "score": 3.5639049479377625
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_148_jpg.rf.8a3e1c0e1dae236abe0e9a75a4882bda.jpg",
+    "mask": "outputs/reference/not_damaged_148_jpg.png",
+    "mask_pixels": 115906,
+    "selected": [
+      {
+        "area": 41590.0,
+        "circularity": 0.7611859775926403,
+        "solidity": 0.9848798797020969,
+        "aspect": 1.0625,
+        "border": 0.0,
+        "proposal": 2,
+        "brightness": 196.76804135992185,
+        "score": 3.7299060640943464
+      },
+      {
+        "area": 35060.5,
+        "circularity": 0.738152171430234,
+        "solidity": 0.983712578210488,
+        "aspect": 1.318918918918919,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 196.0546250529586,
+        "score": 3.702137874905515
+      }
+    ],
+    "human_prompted": [
+      [
+        465,
+        370
+      ]
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_151_jpg.rf.34a8c4ae80d0863cd228120235134ae2.jpg",
+    "mask": "outputs/reference/not_damaged_151_jpg.png",
+    "mask_pixels": 43468,
+    "selected": [
+      {
+        "area": 43077.5,
+        "circularity": 0.7598765084628895,
+        "solidity": 0.9862177909545667,
+        "aspect": 1.0303030303030303,
+        "border": 0.0,
+        "proposal": 3,
+        "brightness": 192.64663660623907,
+        "score": 3.7093274824486517
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_154_jpg.rf.1ad087e824bbaae4f2c8218624f83c1a.jpg",
+    "mask": "outputs/reference/not_damaged_154_jpg.png",
+    "mask_pixels": 67582,
+    "selected": [
+      {
+        "area": 67097.5,
+        "circularity": 0.7596068851018624,
+        "solidity": 0.9890041050358546,
+        "aspect": 1.0136518771331058,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 177.83384629043238,
+        "score": 3.6377802215898787
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_155_jpg.rf.a65395f65d93bcd6cbf6bdab6d94e551.jpg",
+    "mask": "outputs/reference/not_damaged_155_jpg.png",
+    "mask_pixels": 27731,
+    "selected": [
+      {
+        "area": 27398.5,
+        "circularity": 0.6770357702425144,
+        "solidity": 0.9804261866847972,
+        "aspect": 1.8129496402877698,
+        "border": 0.0,
+        "proposal": 2,
+        "brightness": 197.61364537881792,
+        "score": 3.6011140286874728
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_156_jpg.rf.6ae4742599d61d6120e5beb5d38bcf2e.jpg",
+    "mask": "outputs/reference/not_damaged_156_jpg.png",
+    "mask_pixels": 37669,
+    "selected": [
+      {
+        "area": 37284.5,
+        "circularity": 0.6835866200971127,
+        "solidity": 0.9847472399767577,
+        "aspect": 1.7650602409638554,
+        "border": 0.0,
+        "proposal": 2,
+        "brightness": 207.9235445591866,
+        "score": 3.6683338600738704
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_157_jpg.rf.b244a82199f2158510ccf485e54d98a2.jpg",
+    "mask": "outputs/reference/not_damaged_157_jpg.png",
+    "mask_pixels": 83490,
+    "selected": [
+      {
+        "area": 82933.0,
+        "circularity": 0.7219569267391033,
+        "solidity": 0.9882387988560534,
+        "aspect": 1.2508474576271187,
+        "border": 0.0,
+        "proposal": 3,
+        "brightness": 172.097951850521,
+        "score": 3.5706854848477616
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_159_jpg.rf.2bc51aa920c0031f8e311c52c762cded.jpg",
+    "mask": "outputs/reference/not_damaged_159_jpg.png",
+    "mask_pixels": 57460,
+    "selected": [
+      {
+        "area": 57005.0,
+        "circularity": 0.7420036399943758,
+        "solidity": 0.9879549393414211,
+        "aspect": 1.3636363636363635,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 189.5902540898016,
+        "score": 3.677909849784805
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_15_jpg.rf.c7c6c90e16bcccd97696ed56f741d670.jpg",
+    "mask": "outputs/reference/not_damaged_15_jpg.png",
+    "mask_pixels": 64183,
+    "selected": [
+      {
+        "area": 63710.0,
+        "circularity": 0.7544164084417899,
+        "solidity": 0.9883648774433758,
+        "aspect": 0.9593220338983051,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 192.30300858482775,
+        "score": 3.7042963288093045
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_160_jpg.rf.64b7834918be5b72840ecee1e390157e.jpg",
+    "mask": "outputs/reference/not_damaged_160_jpg.png",
+    "mask_pixels": 31796,
+    "selected": [],
+    "human_prompted": [
+      [
+        225,
+        305
+      ]
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_162_jpg.rf.4255a3c6bb6b0a9a625d70a5b51a7df9.jpg",
+    "mask": "outputs/reference/not_damaged_162_jpg.png",
+    "mask_pixels": 94419,
+    "selected": [
+      {
+        "area": 93808.0,
+        "circularity": 0.6814288197799822,
+        "solidity": 0.9880506622429365,
+        "aspect": 1.7748091603053435,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 200.13642381300374,
+        "score": 3.6694794820229184
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_163_jpg.rf.eee95b2e3a2af8b228d81075f9b2f24d.jpg",
+    "mask": "outputs/reference/not_damaged_163_jpg.png",
+    "mask_pixels": 50109,
+    "selected": [
+      {
+        "area": 49678.5,
+        "circularity": 0.7220557800536186,
+        "solidity": 0.9873398853236081,
+        "aspect": 1.5097087378640777,
+        "border": 0.0,
+        "proposal": 2,
+        "brightness": 190.66038037079167,
+        "score": 3.6626975672311852
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_164_jpg.rf.aeab74f44b77d69cb4884f8a55d4a5b8.jpg",
+    "mask": "outputs/reference/not_damaged_164_jpg.png",
+    "mask_pixels": 73743,
+    "selected": [
+      {
+        "area": 73206.5,
+        "circularity": 0.6904854524811541,
+        "solidity": 0.9888494164685542,
+        "aspect": 1.7739130434782608,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 200.0299553855959,
+        "score": 3.6793348689497085
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_16_jpg.rf.133bb95ee3eacad7aecf2ab4cd1e1ff4.jpg",
+    "mask": "outputs/reference/not_damaged_16_jpg.png",
+    "mask_pixels": 59099,
+    "selected": [
+      {
+        "area": 58626.0,
+        "circularity": 0.7078096360113808,
+        "solidity": 0.9861644953194783,
+        "aspect": 1.5963302752293578,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 169.50305419719453,
+        "score": 3.5414894023168317
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_17_jpg.rf.7298154b15cab2942d3351120a4337d5.jpg",
+    "mask": "outputs/reference/not_damaged_17_jpg.png",
+    "mask_pixels": 89346,
+    "selected": [
+      {
+        "area": 63694.5,
+        "circularity": 0.7582433056907841,
+        "solidity": 0.9880707687295912,
+        "aspect": 0.9725085910652921,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 211.03819660890164,
+        "score": 3.7463140744203756
+      },
+      {
+        "area": 2848.0,
+        "circularity": 0.7352429848965782,
+        "solidity": 0.9517126148705096,
+        "aspect": 1.0175438596491229,
+        "border": 0.0,
+        "proposal": 96,
+        "brightness": 94.20060893098783,
+        "score": 2.257289001564884
+      },
+      {
+        "area": 1663.5,
+        "circularity": 0.7626775958558583,
+        "solidity": 0.974802226779959,
+        "aspect": 0.6923076923076923,
+        "border": 0.0,
+        "proposal": 34,
+        "brightness": 67.91289398280803,
+        "score": 2.1350625682195004
+      },
+      {
+        "area": 1641.0,
+        "circularity": 0.6892456753169756,
+        "solidity": 0.9425617461229179,
+        "aspect": 0.6140350877192983,
+        "border": 0.0,
+        "proposal": 58,
+        "brightness": 79.37717265353419,
+        "score": 2.0859268226539927
+      },
+      {
+        "area": 2540.0,
+        "circularity": 0.7721652575834762,
+        "solidity": 0.9902534113060428,
+        "aspect": 0.8571428571428571,
+        "border": 0.0,
+        "proposal": 69,
+        "brightness": 46.89663006436956,
+        "score": 2.085489988854224
+      },
+      {
+        "area": 2859.0,
+        "circularity": 0.7665972749220719,
+        "solidity": 0.9873942324296322,
+        "aspect": 1.037037037037037,
+        "border": 0.0,
+        "proposal": 6,
+        "brightness": 38.591169531513316,
+        "score": 2.046661361705699
+      },
+      {
+        "area": 2420.0,
+        "circularity": 0.7838312605158754,
+        "solidity": 0.9760032264569469,
+        "aspect": 1.1224489795918366,
+        "border": 0.0,
+        "proposal": 85,
+        "brightness": 30.595152959872866,
+        "score": 1.9972131535579007
+      },
+      {
+        "area": 2876.0,
+        "circularity": 0.7856041273038992,
+        "solidity": 0.9856065798492117,
+        "aspect": 1.018181818181818,
+        "border": 0.0,
+        "proposal": 67,
+        "brightness": 15.951055983908816,
+        "score": 1.9512729067155121
+      },
+      {
+        "area": 2881.0,
+        "circularity": 0.7809257812507299,
+        "solidity": 0.9814341679441322,
+        "aspect": 1.0,
+        "border": 0.0,
+        "proposal": 3,
+        "brightness": 10.897255689424364,
+        "score": 1.9173275334455553
+      },
+      {
+        "area": 3008.5,
+        "circularity": 0.7759707143605055,
+        "solidity": 0.9807660961695192,
+        "aspect": 1.0357142857142858,
+        "border": 0.0,
+        "proposal": 13,
+        "brightness": 7.824887748556767,
+        "score": 1.9007894021745941
+      },
+      {
+        "area": 1667.0,
+        "circularity": 0.6688725935119603,
+        "solidity": 0.9602534562211982,
+        "aspect": 0.5333333333333333,
+        "border": 0.0,
+        "proposal": 9,
+        "brightness": 14.26054732041049,
+        "score": 1.7585691323173536
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_18_jpg.rf.bc3fb0b05f8e3f72d25ae44db40362c0.jpg",
+    "mask": "outputs/reference/not_damaged_18_jpg.png",
+    "mask_pixels": 39569,
+    "selected": [
+      {
+        "area": 30885.0,
+        "circularity": 0.7197328586290344,
+        "solidity": 0.9826442468303082,
+        "aspect": 1.391812865497076,
+        "border": 0.0,
+        "proposal": 0,
+        "brightness": 189.72397117694155,
+        "score": 3.6509969613440503
+      },
+      {
+        "area": 2870.5,
+        "circularity": 0.7293858086593465,
+        "solidity": 0.9592314118629908,
+        "aspect": 0.9824561403508771,
+        "border": 0.0,
+        "proposal": 8,
+        "brightness": 113.73456375838926,
+        "score": 2.3574051341803552
+      },
+      {
+        "area": 2587.0,
+        "circularity": 0.7385833421534473,
+        "solidity": 0.9540844550986539,
+        "aspect": 1.0943396226415094,
+        "border": 0.0,
+        "proposal": 9,
+        "brightness": 88.89405204460967,
+        "score": 2.2273654570287214
+      },
+      {
+        "area": 2570.5,
+        "circularity": 0.7240779907355769,
+        "solidity": 0.9530960326288469,
+        "aspect": 1.0363636363636364,
+        "border": 0.0,
+        "proposal": 19,
+        "brightness": 62.03515332834704,
+        "score": 2.077001715229373
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_19_jpg.rf.b68555e4ce0c87f7f6a9f9d441a47a08.jpg",
+    "mask": "outputs/reference/not_damaged_19_jpg.png",
+    "mask_pixels": 104389,
+    "selected": [
+      {
+        "area": 97067.5,
+        "circularity": 0.761059008334428,
+        "solidity": 0.9905402854241819,
+        "aspect": 1.1363636363636365,
+        "border": 0.0,
+        "proposal": 2,
+        "brightness": 193.15937205587187,
+        "score": 3.7173961540379694
+      },
+      {
+        "area": 2642.5,
+        "circularity": 0.7770099537330657,
+        "solidity": 0.9763532237206725,
+        "aspect": 1.16,
+        "border": 0.0,
+        "proposal": 8,
+        "brightness": 19.768306010928963,
+        "score": 1.944367793445883
+      },
+      {
+        "area": 3864.0,
+        "circularity": 0.6840572476009862,
+        "solidity": 0.9536031589338598,
+        "aspect": 1.4406779661016949,
+        "border": 0.0,
+        "proposal": 11,
+        "brightness": 5.00125250501002,
+        "score": 1.7974322940598961
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_20_jpg.rf.5e8498e31e0e596d64f6185f7c56534f.jpg",
+    "mask": "outputs/reference/not_damaged_20_jpg.png",
+    "mask_pixels": 25160,
+    "selected": [
+      {
+        "area": 5546.0,
+        "circularity": 0.6477053269454193,
+        "solidity": 0.9369825984118939,
+        "aspect": 1.1547619047619047,
+        "border": 0.0,
+        "proposal": 3,
+        "brightness": 215.964204246359,
+        "score": 2.7781170548215988
+      },
+      {
+        "area": 19182.5,
+        "circularity": 0.7453472371286124,
+        "solidity": 0.9746957648433728,
+        "aspect": 1.0064935064935066,
+        "border": 0.0,
+        "proposal": 4,
+        "brightness": 76.80740969117723,
+        "score": 2.773112556008228
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_21_jpg.rf.a584f5d526fa26469cc144a40a3134da.jpg",
+    "mask": "outputs/reference/not_damaged_21_jpg.png",
+    "mask_pixels": 88952,
+    "selected": [
+      {
+        "area": 88363.0,
+        "circularity": 0.6906728065993775,
+        "solidity": 0.9897732873336619,
+        "aspect": 1.6961538461538461,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 203.0677331594568,
+        "score": 3.6804460939330395
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_22_jpg.rf.427da4fa2858bf0484b607774c6077c5.jpg",
+    "mask": "outputs/reference/not_damaged_22_jpg.png",
+    "mask_pixels": 10800,
+    "selected": [],
+    "human_prompted": [
+      [
+        390,
+        285
+      ]
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_24_jpg.rf.a557aeb67c480dc55479509a77b4e160.jpg",
+    "mask": "outputs/reference/not_damaged_24_jpg.png",
+    "mask_pixels": 4755,
+    "selected": [
+      {
+        "area": 4614.0,
+        "circularity": 0.6447419573272896,
+        "solidity": 0.9223388305847077,
+        "aspect": 1.3714285714285714,
+        "border": 0.0,
+        "proposal": 4,
+        "brightness": 177.71167192429021,
+        "score": 2.616562696640591
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_27_jpg.rf.9eabbf76d6ac2d4caccb38b11e0d28ad.jpg",
+    "mask": "outputs/reference/not_damaged_27_jpg.png",
+    "mask_pixels": 59064,
+    "selected": [
+      {
+        "area": 58598.0,
+        "circularity": 0.7369715097202248,
+        "solidity": 0.9856603392738497,
+        "aspect": 1.222672064777328,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 169.03729852363537,
+        "score": 3.5678183416122513
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_28_jpg.rf.a7e8555e9e2b27a796da5d502582db24.jpg",
+    "mask": "outputs/reference/not_damaged_28_jpg.png",
+    "mask_pixels": 23713,
+    "selected": [
+      {
+        "area": 23422.5,
+        "circularity": 0.753553454245797,
+        "solidity": 0.9816227316541637,
+        "aspect": 1.0778443113772456,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 190.8580525450175,
+        "score": 3.5063784184911198
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_29_jpg.rf.b15d563685f9a249436a706a816cec07.jpg",
+    "mask": "outputs/reference/not_damaged_29_jpg.png",
+    "mask_pixels": 101381,
+    "selected": [
+      {
+        "area": 100784.0,
+        "circularity": 0.7555207833823824,
+        "solidity": 0.9891014726015633,
+        "aspect": 0.9835164835164835,
+        "border": 0.0,
+        "proposal": 0,
+        "brightness": 184.2853789171541,
+        "score": 3.6660491505697164
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_2_jpg.rf.a4629fbffb9457cd3dda5a1dfc6e5365.jpg",
+    "mask": "outputs/reference/not_damaged_2_jpg.png",
+    "mask_pixels": 44341,
+    "selected": [
+      {
+        "area": 43940.0,
+        "circularity": 0.7343937066210102,
+        "solidity": 0.9861525686199699,
+        "aspect": 1.3560975609756099,
+        "border": 0.0,
+        "proposal": 2,
+        "brightness": 197.1011028168061,
+        "score": 3.7060517893250107
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_31_jpg.rf.7a5340cc049f94d06b26fa34850535ab.jpg",
+    "mask": "outputs/reference/not_damaged_31_jpg.png",
+    "mask_pixels": 60659,
+    "selected": [
+      {
+        "area": 60166.5,
+        "circularity": 0.6744284206673572,
+        "solidity": 0.9861420704123779,
+        "aspect": 1.8125,
+        "border": 0.0,
+        "proposal": 0,
+        "brightness": 176.53484231523765,
+        "score": 3.5432447026559233
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_32_jpg.rf.15f5702d8602844d8d866d229e674c89.jpg",
+    "mask": "outputs/reference/not_damaged_32_jpg.png",
+    "mask_pixels": 20122,
+    "selected": [],
+    "human_prompted": [
+      [
+        430,
+        330
+      ]
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_33_jpg.rf.0d5860269868461da778265b77ee13b2.jpg",
+    "mask": "outputs/reference/not_damaged_33_jpg.png",
+    "mask_pixels": 54099,
+    "selected": [
+      {
+        "area": 53665.0,
+        "circularity": 0.7596275402030304,
+        "solidity": 0.9879054526711093,
+        "aspect": 0.9962121212121212,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 177.68237860219227,
+        "score": 3.635944885885101
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_34_jpg.rf.4be2a53f051e4372100c90f2d36ea129.jpg",
+    "mask": "outputs/reference/not_damaged_34_jpg.png",
+    "mask_pixels": 84264,
+    "selected": [
+      {
+        "area": 83686.5,
+        "circularity": 0.6825940562100682,
+        "solidity": 0.9895764355311701,
+        "aspect": 1.8189300411522633,
+        "border": 0.0,
+        "proposal": 0,
+        "brightness": 202.03473606759707,
+        "score": 3.6721704917412383
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_35_jpg.rf.fe6e06dca50c525194a8edc282489e2a.jpg",
+    "mask": "outputs/reference/not_damaged_35_jpg.png",
+    "mask_pixels": 155555,
+    "selected": [
+      {
+        "area": 154770.0,
+        "circularity": 0.6791416785865771,
+        "solidity": 0.9908292120804725,
+        "aspect": 1.75,
+        "border": 0.0,
+        "proposal": 3,
+        "brightness": 173.4687152454116,
+        "score": 3.5373144668941077
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_36_jpg.rf.4968de1c56728d9f7325771e3a7f7e3e.jpg",
+    "mask": "outputs/reference/not_damaged_36_jpg.png",
+    "mask_pixels": 62938,
+    "selected": [
+      {
+        "area": 62440.5,
+        "circularity": 0.6836992231334424,
+        "solidity": 0.9870455263989883,
+        "aspect": 1.7201834862385321,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 181.7926213098605,
+        "score": 3.5797078560817335
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_37_jpg.rf.73b8cff8dacc52197fd7fdd958397507.jpg",
+    "mask": "outputs/reference/not_damaged_37_jpg.png",
+    "mask_pixels": 70774,
+    "selected": [
+      {
+        "area": 67655.0,
+        "circularity": 0.7132027768229633,
+        "solidity": 0.9882990534065678,
+        "aspect": 1.3193916349809887,
+        "border": 0.0,
+        "proposal": 0,
+        "brightness": 180.91798468264915,
+        "score": 3.606091753642777
+      },
+      {
+        "area": 2513.0,
+        "circularity": 0.6394623455279966,
+        "solidity": 0.9183263292526951,
+        "aspect": 1.0655737704918034,
+        "border": 0.0,
+        "proposal": 3,
+        "brightness": 98.77408256880734,
+        "score": 2.1393055719997283
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_39_jpg.rf.81c4c633444db832268298ddae1010d6.jpg",
+    "mask": "outputs/reference/not_damaged_39_jpg.png",
+    "mask_pixels": 19761,
+    "selected": [],
+    "human_prompted": [
+      [
+        465,
+        305
+      ]
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_3_jpg.rf.d68fc8de8607c2495eb8c832c1e24078.jpg",
+    "mask": "outputs/reference/not_damaged_3_jpg.png",
+    "mask_pixels": 71070,
+    "selected": [
+      {
+        "area": 70551.0,
+        "circularity": 0.7019799790827881,
+        "solidity": 0.9877149877149877,
+        "aspect": 1.381679389312977,
+        "border": 0.0,
+        "proposal": 2,
+        "brightness": 193.34159279583508,
+        "score": 3.6564029307769514
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_41_jpg.rf.630408063dc3fdfa9a9a7f49e1c1d93c.jpg",
+    "mask": "outputs/reference/not_damaged_41_jpg.png",
+    "mask_pixels": 61045,
+    "selected": [
+      {
+        "area": 60571.0,
+        "circularity": 0.7249042571899331,
+        "solidity": 0.987640431117416,
+        "aspect": 1.4912280701754386,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 179.2705381276108,
+        "score": 3.6088973789454033
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_42_jpg.rf.6626de5325fbf9ad4fec739b2a4e29f3.jpg",
+    "mask": "outputs/reference/not_damaged_42_jpg.png",
+    "mask_pixels": 17540,
+    "selected": [],
+    "human_prompted": [
+      [
+        260,
+        105
+      ]
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_44_jpg.rf.a4dbaabec5b64e4c34d874a6870964be.jpg",
+    "mask": "outputs/reference/not_damaged_44_jpg.png",
+    "mask_pixels": 8916,
+    "selected": [
+      {
+        "area": 8723.0,
+        "circularity": 0.6324771712906881,
+        "solidity": 0.9200991508886662,
+        "aspect": 1.2190476190476192,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 60.80720053835801,
+        "score": 2.1608464208532876
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_49_jpg.rf.78a86245d3715c60d39d47045a323711.jpg",
+    "mask": "outputs/reference/not_damaged_49_jpg.png",
+    "mask_pixels": 74478,
+    "selected": [
+      {
+        "area": 73944.5,
+        "circularity": 0.7027246493304984,
+        "solidity": 0.989124836972879,
+        "aspect": 1.6541666666666666,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 196.30254571819867,
+        "score": 3.6733622148943708
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_50_jpg.rf.b9e65c2fcdb435269f67c9d7ade8ca89.jpg",
+    "mask": "outputs/reference/not_damaged_50_jpg.png",
+    "mask_pixels": 37187,
+    "selected": [
+      {
+        "area": 36820.5,
+        "circularity": 0.736312725951759,
+        "solidity": 0.9846896477950419,
+        "aspect": 1.3280423280423281,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 161.3366767956544,
+        "score": 3.527685757725073
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_52_jpg.rf.d62840582d63156f7e346b41ab8895d5.jpg",
+    "mask": "outputs/reference/not_damaged_52_jpg.png",
+    "mask_pixels": 31501,
+    "selected": [
+      {
+        "area": 28385.0,
+        "circularity": 0.7516491033622937,
+        "solidity": 0.9778658168977693,
+        "aspect": 1.0483870967741935,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 191.12255277642305,
+        "score": 3.675117918517178
+      },
+      {
+        "area": 2703.5,
+        "circularity": 0.6751144393064509,
+        "solidity": 0.9544571932921447,
+        "aspect": 1.6041666666666667,
+        "border": 0.0,
+        "proposal": 6,
+        "brightness": 174.18013527945888,
+        "score": 2.5947629060941044
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_55_jpg.rf.73873084ba51dd4e5ab40033b6003190.jpg",
+    "mask": "outputs/reference/not_damaged_55_jpg.png",
+    "mask_pixels": 27798,
+    "selected": [
+      {
+        "area": 27482.0,
+        "circularity": 0.7438780963013546,
+        "solidity": 0.9847355596961445,
+        "aspect": 1.3251533742331287,
+        "border": 0.0,
+        "proposal": 0,
+        "brightness": 181.71098640189942,
+        "score": 3.5956646817569964
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_5_jpg.rf.395cc7ec9b988f25e77e403ef537737e.jpg",
+    "mask": "outputs/reference/not_damaged_5_jpg.png",
+    "mask_pixels": 47359,
+    "selected": [
+      {
+        "area": 46940.0,
+        "circularity": 0.7179555122732169,
+        "solidity": 0.9840567708933868,
+        "aspect": 1.3488372093023255,
+        "border": 0.0,
+        "proposal": 2,
+        "brightness": 199.79186638231383,
+        "score": 3.700971615078173
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_62_jpg.rf.f34bc5162dc72f41ba60d3f5056cc49b.jpg",
+    "mask": "outputs/reference/not_damaged_62_jpg.png",
+    "mask_pixels": 28128,
+    "selected": [],
+    "human_prompted": [
+      [
+        295,
+        385
+      ]
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/train/egg/not_damaged_95_jpg.rf.0806f2b78a5bc571cd36453998060b58.jpg",
+    "mask": "outputs/reference/not_damaged_95_jpg.png",
+    "mask_pixels": 46247,
+    "selected": [
+      {
+        "area": 45842.5,
+        "circularity": 0.7518295909314748,
+        "solidity": 0.9876869048132029,
+        "aspect": 1.2697674418604652,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 190.7355071680325,
+        "score": 3.6931940315848406
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/valid/egg/not_damaged_102_jpg.rf.8d754cbc174c6cb6fb1b5c1929edcbb1.jpg",
+    "mask": "outputs/reference/not_damaged_102_jpg.png",
+    "mask_pixels": 75559,
+    "selected": [
+      {
+        "area": 75043.5,
+        "circularity": 0.7555091417351784,
+        "solidity": 0.987602897921314,
+        "aspect": 0.9652996845425867,
+        "border": 0.0,
+        "proposal": 2,
+        "brightness": 186.6529731732818,
+        "score": 3.6763769055229014
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/valid/egg/not_damaged_107_jpg.rf.8497e164672ad2319ef9ea157023304e.jpg",
+    "mask": "outputs/reference/not_damaged_107_jpg.png",
+    "mask_pixels": 65089,
+    "selected": [
+      {
+        "area": 64605.0,
+        "circularity": 0.7426835908931463,
+        "solidity": 0.9882444721485005,
+        "aspect": 1.1204379562043796,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 186.97100892623945,
+        "score": 3.665783107672844
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/valid/egg/not_damaged_109_jpg.rf.4d74eb94b1d03ebd3e7c442e58699304.jpg",
+    "mask": "outputs/reference/not_damaged_109_jpg.png",
+    "mask_pixels": 50006,
+    "selected": [
+      {
+        "area": 49563.5,
+        "circularity": 0.6800581670119938,
+        "solidity": 0.9846726929571868,
+        "aspect": 1.7461139896373057,
+        "border": 0.0,
+        "proposal": 0,
+        "brightness": 189.4330280366356,
+        "score": 3.611896000152359
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/valid/egg/not_damaged_115_jpg.rf.5e04f25a50022be8a5f0dbcfe42bc26f.jpg",
+    "mask": "outputs/reference/not_damaged_115_jpg.png",
+    "mask_pixels": 80727,
+    "selected": [
+      {
+        "area": 43816.0,
+        "circularity": 0.7184294478611113,
+        "solidity": 0.9853266919279939,
+        "aspect": 1.4422110552763818,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 198.42414853679497,
+        "score": 3.69587688247308
+      },
+      {
+        "area": 36131.5,
+        "circularity": 0.6882323637916331,
+        "solidity": 0.9845095367847412,
+        "aspect": 1.7030303030303031,
+        "border": 0.0,
+        "proposal": 2,
+        "brightness": 200.19775945657236,
+        "score": 3.672741900576374
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/valid/egg/not_damaged_119_jpg.rf.6758625c4b939166ca105d0509fc569e.jpg",
+    "mask": "outputs/reference/not_damaged_119_jpg.png",
+    "mask_pixels": 70712,
+    "selected": [],
+    "human_prompted": [
+      [
+        305,
+        445
+      ]
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/valid/egg/not_damaged_11_jpg.rf.95e1bc4944748cfd1a56fe23a42b6ae8.jpg",
+    "mask": "outputs/reference/not_damaged_11_jpg.png",
+    "mask_pixels": 31978,
+    "selected": [
+      {
+        "area": 28168.5,
+        "circularity": 0.5862237388860264,
+        "solidity": 0.9188426597948233,
+        "aspect": 1.1475409836065573,
+        "border": 0.0,
+        "proposal": 8,
+        "brightness": 197.98240325294447,
+        "score": 3.477417728561643
+      },
+      {
+        "area": 1639.0,
+        "circularity": 0.7074425653075983,
+        "solidity": 0.9457587997691864,
+        "aspect": 1.1904761904761905,
+        "border": 0.0,
+        "proposal": 2,
+        "brightness": 48.49767711962834,
+        "score": 1.9528535341570692
+      },
+      {
+        "area": 1644.0,
+        "circularity": 0.6932536017359531,
+        "solidity": 0.952215464813206,
+        "aspect": 0.576271186440678,
+        "border": 0.0,
+        "proposal": 24,
+        "brightness": 33.57233796296296,
+        "score": 1.870668926006831
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/valid/egg/not_damaged_120_jpg.rf.dfe91ad8ce891c84e495a8d59bbe01f5.jpg",
+    "mask": "outputs/reference/not_damaged_120_jpg.png",
+    "mask_pixels": 60092,
+    "selected": [
+      {
+        "area": 59622.5,
+        "circularity": 0.726846902662141,
+        "solidity": 0.9863762697283526,
+        "aspect": 1.3541666666666667,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 194.26114957065832,
+        "score": 3.6845289202437854
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/valid/egg/not_damaged_122_jpg.rf.b44d8e5a76cadeff9b2d8eaa85309d09.jpg",
+    "mask": "outputs/reference/not_damaged_122_jpg.png",
+    "mask_pixels": 44474,
+    "selected": [
+      {
+        "area": 44053.5,
+        "circularity": 0.6773655907875725,
+        "solidity": 0.9847218186288754,
+        "aspect": 1.7173913043478262,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 194.20074650357512,
+        "score": 3.6330911419343237
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/valid/egg/not_damaged_126_jpg.rf.2c3342cf9ca7ab55f6682ef198e98bbd.jpg",
+    "mask": "outputs/reference/not_damaged_126_jpg.png",
+    "mask_pixels": 51474,
+    "selected": [
+      {
+        "area": 51045.5,
+        "circularity": 0.739061974491845,
+        "solidity": 0.9848354764959533,
+        "aspect": 0.9402985074626866,
+        "border": 0.0,
+        "proposal": 0,
+        "brightness": 182.97041224695963,
+        "score": 3.6387495122225966
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/valid/egg/not_damaged_130_jpg.rf.7289d26d022f33aa74b3517f40d6a127.jpg",
+    "mask": "outputs/reference/not_damaged_130_jpg.png",
+    "mask_pixels": 48364,
+    "selected": [
+      {
+        "area": 47967.5,
+        "circularity": 0.6919461864582902,
+        "solidity": 0.986285455797839,
+        "aspect": 1.6649484536082475,
+        "border": 0.0,
+        "proposal": 0,
+        "brightness": 204.1074352824415,
+        "score": 3.6782316422561294
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/valid/egg/not_damaged_133_jpg.rf.a386f448c321cfb45a902bab446a0536.jpg",
+    "mask": "outputs/reference/not_damaged_133_jpg.png",
+    "mask_pixels": 58926,
+    "selected": [
+      {
+        "area": 20470.5,
+        "circularity": 0.680173292369957,
+        "solidity": 0.9799655320982336,
+        "aspect": 1.640625,
+        "border": 0.0,
+        "proposal": 2,
+        "brightness": 169.82120832530353,
+        "score": 3.2231992466750654
+      },
+      {
+        "area": 18683.0,
+        "circularity": 0.5886029670661428,
+        "solidity": 0.9648814749780509,
+        "aspect": 0.98125,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 208.1285081240768,
+        "score": 3.205095770169194
+      }
+    ],
+    "human_prompted": [
+      [
+        155,
+        285
+      ]
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/valid/egg/not_damaged_136_jpg.rf.b91466d91f3e0005beb0e42acc9d5b83.jpg",
+    "mask": "outputs/reference/not_damaged_136_jpg.png",
+    "mask_pixels": 95068,
+    "selected": [
+      {
+        "area": 49508.0,
+        "circularity": 0.7069876541955578,
+        "solidity": 0.9857242409158785,
+        "aspect": 1.5414634146341464,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 193.4066994283422,
+        "score": 3.6597453922531473
+      },
+      {
+        "area": 17769.0,
+        "circularity": 0.6697105957220858,
+        "solidity": 0.9600713205100497,
+        "aspect": 1.013157894736842,
+        "border": 0.0,
+        "proposal": 2,
+        "brightness": 193.16001773049646,
+        "score": 3.2153155428310463
+      }
+    ],
+    "human_prompted": [
+      [
+        220,
+        350
+      ]
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/valid/egg/not_damaged_140_jpg.rf.5a28b6a69e229bf384854ec1e98b3f19.jpg",
+    "mask": "outputs/reference/not_damaged_140_jpg.png",
+    "mask_pixels": 85025,
+    "selected": [
+      {
+        "area": 32292.0,
+        "circularity": 0.7410597557911711,
+        "solidity": 0.984767393989296,
+        "aspect": 1.2692307692307692,
+        "border": 0.0,
+        "proposal": 0,
+        "brightness": 162.23162958877245,
+        "score": 3.5369852977243292
+      }
+    ],
+    "human_prompted": [
+      [
+        315,
+        135
+      ],
+      [
+        315,
+        305
+      ]
+    ],
+    "human_box_reviewed": [
+      [
+        260,
+        0,
+        450,
+        190
+      ],
+      [
+        275,
+        205,
+        480,
+        395
+      ]
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/valid/egg/not_damaged_143_jpg.rf.ddf38df15f549405285b01245a2ace36.jpg",
+    "mask": "outputs/reference/not_damaged_143_jpg.png",
+    "mask_pixels": 54884,
+    "selected": [
+      {
+        "area": 54417.0,
+        "circularity": 0.6782873962594818,
+        "solidity": 0.9851192092543312,
+        "aspect": 1.765,
+        "border": 0.0,
+        "proposal": 2,
+        "brightness": 201.81256832592376,
+        "score": 3.663406605513813
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/valid/egg/not_damaged_147_jpg.rf.f96813b608c83c8ca5fadbe68c1eefdb.jpg",
+    "mask": "outputs/reference/not_damaged_147_jpg.png",
+    "mask_pixels": 43797,
+    "selected": [],
+    "human_prompted": [
+      [
+        205,
+        335
+      ],
+      [
+        465,
+        235
+      ]
+    ],
+    "human_box_reviewed": [
+      [
+        70,
+        330,
+        315,
+        465
+      ],
+      [
+        380,
+        215,
+        590,
+        360
+      ]
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/valid/egg/not_damaged_149_jpg.rf.c3c35299246e8c667ee33f02855a6e99.jpg",
+    "mask": "outputs/reference/not_damaged_149_jpg.png",
+    "mask_pixels": 29557,
+    "selected": [
+      {
+        "area": 29225.0,
+        "circularity": 0.7216786517897623,
+        "solidity": 0.985400229280464,
+        "aspect": 1.5649350649350648,
+        "border": 0.0,
+        "proposal": 2,
+        "brightness": 188.7095104374598,
+        "score": 3.6506264332575253
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/valid/egg/not_damaged_150_jpg.rf.c58ad3cfc0417f557be06b685008bb60.jpg",
+    "mask": "outputs/reference/not_damaged_150_jpg.png",
+    "mask_pixels": 31074,
+    "selected": [
+      {
+        "area": 30730.0,
+        "circularity": 0.7054848596239013,
+        "solidity": 0.981945997763221,
+        "aspect": 1.5822784810126582,
+        "border": 0.0,
+        "proposal": 2,
+        "brightness": 189.64208019566198,
+        "score": 3.635641258365432
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/valid/egg/not_damaged_158_jpg.rf.344b69defda5c12d2f73f77ab479c93c.jpg",
+    "mask": "outputs/reference/not_damaged_158_jpg.png",
+    "mask_pixels": 55989,
+    "selected": [
+      {
+        "area": 49358.0,
+        "circularity": 0.7324677816105846,
+        "solidity": 0.9746936679864533,
+        "aspect": 0.9770114942528736,
+        "border": 0.0,
+        "proposal": 2,
+        "brightness": 204.19627970510837,
+        "score": 3.707161449597038
+      },
+      {
+        "area": 6034.0,
+        "circularity": 0.5902217024471422,
+        "solidity": 0.9612872391269714,
+        "aspect": 0.4393939393939394,
+        "border": 0.0,
+        "proposal": 3,
+        "brightness": 136.29107603092783,
+        "score": 2.443413540478753
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/valid/egg/not_damaged_25_jpg.rf.9a2e0ec799b7cfe4b89e93c2bdf7896f.jpg",
+    "mask": "outputs/reference/not_damaged_25_jpg.png",
+    "mask_pixels": 49705,
+    "selected": [
+      {
+        "area": 49283.0,
+        "circularity": 0.7466200199751527,
+        "solidity": 0.9857388591087287,
+        "aspect": 1.2895927601809956,
+        "border": 0.0,
+        "proposal": 2,
+        "brightness": 173.61923347751735,
+        "score": 3.600455046471468
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/valid/egg/not_damaged_40_jpg.rf.71ddd6e202abb9dd3dd4721b6d408cba.jpg",
+    "mask": "outputs/reference/not_damaged_40_jpg.png",
+    "mask_pixels": 33843,
+    "selected": [],
+    "human_prompted": [
+      [
+        205,
+        405
+      ]
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/valid/egg/not_damaged_45_jpg.rf.afe41bdac424f6a6b81d8a809fdf73e0.jpg",
+    "mask": "outputs/reference/not_damaged_45_jpg.png",
+    "mask_pixels": 45847,
+    "selected": [
+      {
+        "area": 45446.5,
+        "circularity": 0.7591477578085654,
+        "solidity": 0.9854608929462021,
+        "aspect": 1.0595744680851065,
+        "border": 0.0,
+        "proposal": 2,
+        "brightness": 184.16520164896286,
+        "score": 3.6654346589995814
+      }
+    ]
+  },
+  {
+    "image": "egg.v1i.folder/valid/egg/not_damaged_6_jpg.rf.1b79fa07c23ef838f19c9a226c9022f5.jpg",
+    "mask": "outputs/reference/not_damaged_6_jpg.png",
+    "mask_pixels": 40144,
+    "selected": [
+      {
+        "area": 39749.0,
+        "circularity": 0.6897906630200253,
+        "solidity": 0.984483164295179,
+        "aspect": 1.697142857142857,
+        "border": 0.0,
+        "proposal": 1,
+        "brightness": 194.54685631725786,
+        "score": 3.6470081089014936
+      }
+    ]
+  }
+]

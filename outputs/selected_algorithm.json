@@ -1,0 +1,7 @@
+{
+  "name": "T8 graph cut 180",
+  "method": "grabcut",
+  "light": 180,
+  "sat": 110,
+  "min_area": 0.003
+}
