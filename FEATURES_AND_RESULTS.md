@@ -36,6 +36,8 @@
 
 The evaluation numbers compare classical masks with reviewed **MobileSAM pseudo-labels**, because the source dataset has classification folders rather than human segmentation masks. They quantify agreement with that reference, not absolute segmentation accuracy. The small evaluation set gives a wide interval. Early error inspection influenced method design, so an independent human-labeled set would be needed for a definitive claim.
 
+[Watch the public tracking video](https://drive.google.com/file/d/1oLbEB3EDDzFkoCDZdwqK_lTCbqnHanMv/view?usp=drivesdk).
+
 ## What makes this stronger than a minimal submission
 
 1. **The improvement is experimentally demonstrated.** The final method raises development mean IoU from 0.361 for the strongest threshold baseline to 0.461. The eight-trial log records parameters, reasons, outcomes, and discarded ideas, so the choice can be defended rather than described as a single lucky threshold.

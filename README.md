@@ -40,6 +40,8 @@ mkdir -p data/video
 
 The source MP4 is excluded from Git. The tracker reads `data/video/source.mp4` and writes the annotated output.
 
+The [annotated tracking video is publicly viewable on Google Drive](https://drive.google.com/file/d/1oLbEB3EDDzFkoCDZdwqK_lTCbqnHanMv/view?usp=drivesdk).
+
 ## Reproduce the experiments
 
 ```bash
@@ -50,7 +52,7 @@ YOLO_CONFIG_DIR="$PWD/.cache" .venv/bin/python scripts/repair_reference.py
 MPLCONFIGDIR="$PWD/.cache/matplotlib" .venv/bin/python scripts/make_report.py
 ```
 
-The first command generates automatic MobileSAM proposals and saves masks for all 110 images. The second applies recorded human-selected positive point and box prompts to visible missed eggs; it records every prompt in `outputs/reference_repairs.json` and creates a QC contact sheet. Two boiling-water frames have no visible egg mask. The experiment command uses a deterministic 88/22 split that keeps strong perceptual matches and ORB-verified scene matches together; it saves all trial decisions and per-image held-out metrics. The tracker writes a full 60-second MP4 and `outputs/tracks.csv`. To insert the public tracking-video link into the PDF after publication, rerun the final command with `--video-url 'https://drive.google.com/...'`.
+The first command generates automatic MobileSAM proposals and saves masks for all 110 images. The second applies recorded human-selected positive point and box prompts to visible missed eggs; it records every prompt in `outputs/reference_repairs.json` and creates a QC contact sheet. Two boiling-water frames have no visible egg mask. The experiment command uses a deterministic 88/22 split that keeps strong perceptual matches and ORB-verified scene matches together; it saves all trial decisions and per-image held-out metrics. The tracker writes a full 60-second MP4 and `outputs/tracks.csv`. To rebuild the report with the verified public video link, rerun the final command with `--video-url 'https://drive.google.com/file/d/1oLbEB3EDDzFkoCDZdwqK_lTCbqnHanMv/view?usp=drivesdk'`.
 
 ## Method and limitations
 
